@@ -16,6 +16,7 @@ private:
 
 signals:
 public slots:
+    void changeText();
 };
 
 

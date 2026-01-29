@@ -410,15 +410,7 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "/Users/patrickseweryn/Developer/Projects/qtTest/build/QtTest_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "QtTest_autogen/timestamp",
-	"HEADERS" : 
-	[
-		[
-			"/Users/patrickseweryn/Developer/Projects/qtTest/include/pfy/TestButton.hpp",
-			"MU",
-			"F6YGAAAXRA/moc_TestButton.cpp",
-			null
-		]
-	],
+	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/Users/patrickseweryn/Developer/Projects/qtTest/build/QtTest_autogen/include",
 	"MOC_COMPILATION_FILE" : "/Users/patrickseweryn/Developer/Projects/qtTest/build/QtTest_autogen/mocs_compilation.cpp",
@@ -480,11 +472,6 @@
 	"SETTINGS_FILE" : "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/QtTest_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[
-			"/Users/patrickseweryn/Developer/Projects/qtTest/src/pfy/TestButton.cpp",
-			"MU",
-			null
-		],
 		[
 			"/Users/patrickseweryn/Developer/Projects/qtTest/src/pfy/main.cpp",
 			"MU",

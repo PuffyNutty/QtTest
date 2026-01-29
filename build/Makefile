@@ -179,30 +179,6 @@ QtTest_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.s
 .PHONY : QtTest_autogen/mocs_compilation.cpp.s
 
-src/pfy/TestButton.o: src/pfy/TestButton.cpp.o
-.PHONY : src/pfy/TestButton.o
-
-# target to build an object file
-src/pfy/TestButton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/src/pfy/TestButton.cpp.o
-.PHONY : src/pfy/TestButton.cpp.o
-
-src/pfy/TestButton.i: src/pfy/TestButton.cpp.i
-.PHONY : src/pfy/TestButton.i
-
-# target to preprocess a source file
-src/pfy/TestButton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/src/pfy/TestButton.cpp.i
-.PHONY : src/pfy/TestButton.cpp.i
-
-src/pfy/TestButton.s: src/pfy/TestButton.cpp.s
-.PHONY : src/pfy/TestButton.s
-
-# target to generate assembly for a file
-src/pfy/TestButton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/src/pfy/TestButton.cpp.s
-.PHONY : src/pfy/TestButton.cpp.s
-
 src/pfy/main.o: src/pfy/main.cpp.o
 .PHONY : src/pfy/main.o
 
@@ -241,9 +217,6 @@ help:
 	@echo "... QtTest_autogen/mocs_compilation.o"
 	@echo "... QtTest_autogen/mocs_compilation.i"
 	@echo "... QtTest_autogen/mocs_compilation.s"
-	@echo "... src/pfy/TestButton.o"
-	@echo "... src/pfy/TestButton.i"
-	@echo "... src/pfy/TestButton.s"
 	@echo "... src/pfy/main.o"
 	@echo "... src/pfy/main.i"
 	@echo "... src/pfy/main.s"

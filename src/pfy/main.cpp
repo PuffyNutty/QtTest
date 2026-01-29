@@ -1,14 +1,13 @@
-#include <iostream>
 #include <QApplication>
-#include <QPushButton>
+
+#include "pfy/TestButton.hpp"
+
 
 int main(int argc, char* argv[])
 {
     QApplication app(argc, argv);
-    QFont font("Avenir");
-    QPushButton button("Hello World");
-    button.setToolTip("A tooltip");
-    button.setFont(font);
-    button.show();
+
+    TestButton button;
+    
     return app.exec();
 }

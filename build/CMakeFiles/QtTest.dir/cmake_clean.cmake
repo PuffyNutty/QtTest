@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "QtTest_autogen"
   "CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/QtTest.dir/src/pfy/TestButton.cpp.o"
+  "CMakeFiles/QtTest.dir/src/pfy/TestButton.cpp.o.d"
   "CMakeFiles/QtTest.dir/src/pfy/main.cpp.o"
   "CMakeFiles/QtTest.dir/src/pfy/main.cpp.o.d"
   "QtTest_autogen/mocs_compilation.cpp"

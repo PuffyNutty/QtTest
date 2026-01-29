@@ -965,13 +965,14 @@ CMakeFiles/QtTest.dir/src/pfy/main.cpp.o: \
   /opt/homebrew/lib/QtCore.framework/Headers/qvarlengtharray.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qalloc.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qguiapplication_platform.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QProgressBar \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qprogressbar.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qframe.h \
+  /Users/patrickseweryn/Developer/Projects/qtTest/include/pfy/Window.hpp \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qabstractbutton.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qicon.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qkeysequence.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qaction.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/qkeysequence.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/qicon.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qpalette.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qbrush.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qfont.h \
@@ -980,6 +981,4 @@ CMakeFiles/QtTest.dir/src/pfy/main.cpp.o: \
   /opt/homebrew/lib/QtGui.framework/Headers/qfontinfo.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qfontvariableaxis.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qsizepolicy.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QSlider \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qslider.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qabstractslider.h
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget

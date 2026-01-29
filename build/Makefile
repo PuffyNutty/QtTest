@@ -179,6 +179,30 @@ QtTest_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.s
 .PHONY : QtTest_autogen/mocs_compilation.cpp.s
 
+src/pfy/Window.o: src/pfy/Window.cpp.o
+.PHONY : src/pfy/Window.o
+
+# target to build an object file
+src/pfy/Window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/src/pfy/Window.cpp.o
+.PHONY : src/pfy/Window.cpp.o
+
+src/pfy/Window.i: src/pfy/Window.cpp.i
+.PHONY : src/pfy/Window.i
+
+# target to preprocess a source file
+src/pfy/Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/src/pfy/Window.cpp.i
+.PHONY : src/pfy/Window.cpp.i
+
+src/pfy/Window.s: src/pfy/Window.cpp.s
+.PHONY : src/pfy/Window.s
+
+# target to generate assembly for a file
+src/pfy/Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/src/pfy/Window.cpp.s
+.PHONY : src/pfy/Window.cpp.s
+
 src/pfy/main.o: src/pfy/main.cpp.o
 .PHONY : src/pfy/main.o
 
@@ -217,6 +241,9 @@ help:
 	@echo "... QtTest_autogen/mocs_compilation.o"
 	@echo "... QtTest_autogen/mocs_compilation.i"
 	@echo "... QtTest_autogen/mocs_compilation.s"
+	@echo "... src/pfy/Window.o"
+	@echo "... src/pfy/Window.i"
+	@echo "... src/pfy/Window.s"
 	@echo "... src/pfy/main.o"
 	@echo "... src/pfy/main.i"
 	@echo "... src/pfy/main.s"

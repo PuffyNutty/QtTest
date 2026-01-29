@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "QtTest_autogen/timestamp" "custom" "QtTest_autogen/deps"
   "/Users/patrickseweryn/Developer/Projects/qtTest/build/QtTest_autogen/mocs_compilation.cpp" "CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.o.d"
+  "/Users/patrickseweryn/Developer/Projects/qtTest/src/pfy/Window.cpp" "CMakeFiles/QtTest.dir/src/pfy/Window.cpp.o" "gcc" "CMakeFiles/QtTest.dir/src/pfy/Window.cpp.o.d"
   "/Users/patrickseweryn/Developer/Projects/qtTest/src/pfy/main.cpp" "CMakeFiles/QtTest.dir/src/pfy/main.cpp.o" "gcc" "CMakeFiles/QtTest.dir/src/pfy/main.cpp.o.d"
   )
 

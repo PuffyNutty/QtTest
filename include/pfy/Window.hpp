@@ -10,9 +10,8 @@ public:
 signals:
 
 private slots:
-    void slotToggleCheckMark();
+    void slotToggleCheckMark(bool checked);
 
 private:
-    bool _checkMarkIsChecked = false;
     QPushButton* _pCheckMark;
 };

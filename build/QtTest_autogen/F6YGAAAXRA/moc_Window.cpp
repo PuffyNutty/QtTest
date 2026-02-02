@@ -40,12 +40,15 @@ template <> constexpr inline auto Window::qt_create_metaobjectdata<qt_meta_tag_Z
     QtMocHelpers::StringRefStorage qt_stringData {
         "Window",
         "slotToggleCheckMark",
-        ""
+        "",
+        "checked"
     };
 
     QtMocHelpers::UintData qt_methods {
         // Slot 'slotToggleCheckMark'
-        QtMocHelpers::SlotData<void()>(1, 2, QMC::AccessPrivate, QMetaType::Void),
+        QtMocHelpers::SlotData<void(bool)>(1, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::Bool, 3 },
+        }}),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -69,11 +72,10 @@ void Window::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
     auto *_t = static_cast<Window *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->slotToggleCheckMark(); break;
+        case 0: _t->slotToggleCheckMark((*reinterpret_cast<std::add_pointer_t<bool>>(_a[1]))); break;
         default: ;
         }
     }
-    (void)_a;
 }
 
 const QMetaObject *Window::metaObject() const

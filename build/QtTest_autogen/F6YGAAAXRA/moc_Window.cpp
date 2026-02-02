@@ -39,16 +39,22 @@ template <> constexpr inline auto Window::qt_create_metaobjectdata<qt_meta_tag_Z
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
         "Window",
-        "slotToggleCheckMark",
+        "checkmarkClicked11Times",
         "",
-        "checked"
+        "slotToggleCheckMark",
+        "checked",
+        "slotCheckmarkClicked11Times"
     };
 
     QtMocHelpers::UintData qt_methods {
+        // Signal 'checkmarkClicked11Times'
+        QtMocHelpers::SignalData<void()>(1, 2, QMC::AccessPublic, QMetaType::Void),
         // Slot 'slotToggleCheckMark'
-        QtMocHelpers::SlotData<void(bool)>(1, 2, QMC::AccessPrivate, QMetaType::Void, {{
-            { QMetaType::Bool, 3 },
+        QtMocHelpers::SlotData<void(bool)>(3, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { QMetaType::Bool, 4 },
         }}),
+        // Slot 'slotCheckmarkClicked11Times'
+        QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -72,9 +78,15 @@ void Window::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
     auto *_t = static_cast<Window *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->slotToggleCheckMark((*reinterpret_cast<std::add_pointer_t<bool>>(_a[1]))); break;
+        case 0: _t->checkmarkClicked11Times(); break;
+        case 1: _t->slotToggleCheckMark((*reinterpret_cast<std::add_pointer_t<bool>>(_a[1]))); break;
+        case 2: _t->slotCheckmarkClicked11Times(); break;
         default: ;
         }
+    }
+    if (_c == QMetaObject::IndexOfMethod) {
+        if (QtMocHelpers::indexOfMethod<void (Window::*)()>(_a, &Window::checkmarkClicked11Times, 0))
+            return;
     }
 }
 
@@ -97,15 +109,21 @@ int Window::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 3;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 3)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 1;
+        _id -= 3;
     }
     return _id;
+}
+
+// SIGNAL 0
+void Window::checkmarkClicked11Times()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 QT_WARNING_POP

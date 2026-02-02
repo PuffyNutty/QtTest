@@ -1,3 +1,5 @@
+#include <string>
+#include <sstream>
 #include <QPushButton>
 
 #include "pfy/Window.hpp"
@@ -10,6 +12,7 @@ Window::Window(QWidget* parent)
     _pCheckMark->setCheckable(true);
 
     QObject::connect(_pCheckMark, SIGNAL (clicked(bool)), this, SLOT (slotToggleCheckMark(bool)));
+    QObject::connect(this, SIGNAL (checkmarkClicked11Times()), this, SLOT (slotCheckmarkClicked11Times()));
 
     _pCheckMark->show();
 }
@@ -17,9 +20,23 @@ Window::Window(QWidget* parent)
 
 void Window::slotToggleCheckMark(bool checked)
 {
-    if (checked) {
-        _pCheckMark->setText("Owie you clicked me.");
-    } else {
-        _pCheckMark->setText("Ahh that's better. Just don't click me again.");
+    _numberOfTimesClicked++;
+    if (_numberOfTimesClicked >= 11) {
+        emit checkmarkClicked11Times();
+        return;
     }
+
+    std::stringstream numberToStringConverter;
+    std::string strNumberOfTimesClicked;
+    numberToStringConverter << _numberOfTimesClicked;
+    numberToStringConverter >> strNumberOfTimesClicked;
+    std::string constantText = "Owie you clicked me: ";
+    std::string fullText = constantText + strNumberOfTimesClicked;
+    _pCheckMark->setText(fullText.c_str());
+}
+
+
+void Window::slotCheckmarkClicked11Times()
+{
+    _pCheckMark->setText("STOP CLICKING MEEEEEEE");
 }

@@ -1,42 +1,30 @@
-#include <string>
-#include <sstream>
 #include <QPushButton>
 
 #include "pfy/Window.hpp"
 
 
-Window::Window(QWidget* parent)
-: QWidget(parent)
+Window::Window(const char* pTitle, uint32_t width, uint32_t height, QWidget* pParent) 
+: QMainWindow(pParent)
 {
-    _pCheckMark = new QPushButton("I wish I were clicked");
-    _pCheckMark->setCheckable(true);
+    this->setGeometry(50, 50, width, height);
+    this->setWindowTitle(pTitle);
 
-    QObject::connect(_pCheckMark, SIGNAL (clicked(bool)), this, SLOT (slotToggleCheckMark(bool)));
-    QObject::connect(this, SIGNAL (checkmarkClicked11Times()), this, SLOT (slotCheckmarkClicked11Times()));
+    _pMainWidget = new QWidget(this);
+    QPalette mainWidgetColor = _pMainWidget->palette();
+    mainWidgetColor.setColor(QPalette::Window, Qt::green);
+    _pMainWidget->setAutoFillBackground(true);
+    _pMainWidget->setPalette(mainWidgetColor);
+    this->setCentralWidget(_pMainWidget);
 
-    _pCheckMark->show();
+    _pDockWidget = new QDockWidget(tr("Dock Widget"), this);
+    _pDockWidget->setAllowedAreas(Qt::LeftDockWidgetArea | Qt::RightDockWidgetArea);
+    QPushButton* pTestButton = new QPushButton(_pDockWidget);
+    pTestButton->setText("push me or else");
+    pTestButton->setCheckable(true);
+    _pDockWidget->setWidget(pTestButton);
+    this->addDockWidget(Qt::LeftDockWidgetArea, _pDockWidget);
+    
+
+    this->show();
 }
 
-
-void Window::slotToggleCheckMark(bool checked)
-{
-    _numberOfTimesClicked++;
-    if (_numberOfTimesClicked >= 11) {
-        emit checkmarkClicked11Times();
-        return;
-    }
-
-    std::stringstream numberToStringConverter;
-    std::string strNumberOfTimesClicked;
-    numberToStringConverter << _numberOfTimesClicked;
-    numberToStringConverter >> strNumberOfTimesClicked;
-    std::string constantText = "Owie you clicked me: ";
-    std::string fullText = constantText + strNumberOfTimesClicked;
-    _pCheckMark->setText(fullText.c_str());
-}
-
-
-void Window::slotCheckmarkClicked11Times()
-{
-    _pCheckMark->setText("STOP CLICKING MEEEEEEE");
-}

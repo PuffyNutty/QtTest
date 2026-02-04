@@ -885,11 +885,13 @@ QtTest_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platforms/M
   /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
-  /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/QDockWidget \
+  /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
   /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
-  /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
-  /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+  /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qdockwidget.h \
+  /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
   /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
   /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
   /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
@@ -2122,11 +2124,13 @@ CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.o: QtTest_autogen/mocs
   /opt/homebrew/lib/QtGui.framework/Headers/qtguiglobal.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qtransform.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qwindowdefs.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QDockWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qabstractbutton.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qdockwidget.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qsizepolicy.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qtabwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -2397,7 +2401,6 @@ CMakeFiles/QtTest.dir/src/pfy/Window.cpp.o: /Users/patrickseweryn/Developer/Proj
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/bit_reference.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/byte.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/complex.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/fstream.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/functional.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/ios.h \
@@ -2406,9 +2409,7 @@ CMakeFiles/QtTest.dir/src/pfy/Window.cpp.o: /Users/patrickseweryn/Developer/Proj
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/memory_resource.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/ostream.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/pair.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/sstream.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/streambuf.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/string_view.h \
@@ -2537,8 +2538,6 @@ CMakeFiles/QtTest.dir/src/pfy/Window.cpp.o: /Users/patrickseweryn/Developer/Proj
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/put_character_sequence.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_valid.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/log2.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h \
@@ -2618,7 +2617,6 @@ CMakeFiles/QtTest.dir/src/pfy/Window.cpp.o: /Users/patrickseweryn/Developer/Proj
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_base_of.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_bounded_array.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_callable.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_class.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_compound.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_const.h \
@@ -2733,7 +2731,6 @@ CMakeFiles/QtTest.dir/src/pfy/Window.cpp.o: /Users/patrickseweryn/Developer/Proj
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/array \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/atomic \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
@@ -2753,17 +2750,14 @@ CMakeFiles/QtTest.dir/src/pfy/Window.cpp.o: /Users/patrickseweryn/Developer/Proj
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cwchar \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cwctype \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/deque \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/exception \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iterator \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/limits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/list \
@@ -2775,13 +2769,8 @@ CMakeFiles/QtTest.dir/src/pfy/Window.cpp.o: /Users/patrickseweryn/Developer/Proj
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/new \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/optional \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept \
@@ -2922,7 +2911,6 @@ CMakeFiles/QtTest.dir/src/pfy/Window.cpp.o: /Users/patrickseweryn/Developer/Proj
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/types.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/wait.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/time.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wchar.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/wctype.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xlocale.h \
@@ -3108,11 +3096,16 @@ CMakeFiles/QtTest.dir/src/pfy/Window.cpp.o: /Users/patrickseweryn/Developer/Proj
   /opt/homebrew/lib/QtGui.framework/Headers/qtguiglobal.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qtransform.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qwindowdefs.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QDockWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qabstractbutton.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qdockwidget.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qsizepolicy.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qtabwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -4091,12 +4084,14 @@ CMakeFiles/QtTest.dir/src/pfy/main.cpp.o: /Users/patrickseweryn/Developer/Projec
   /opt/homebrew/lib/QtGui.framework/Headers/qtransform.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qwindowdefs.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QApplication \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QDockWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qapplication.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qdockwidget.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qsizepolicy.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qtabwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
@@ -4117,25 +4112,13 @@ CMakeFiles/QtTest.dir/src/pfy/main.cpp.o: /Users/patrickseweryn/Developer/Projec
 
 /opt/homebrew/lib/QtCore.framework/Headers/qabstracteventdispatcher.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stack:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/queue:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_char_like_type.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/basic_ostream.h:
-
 /opt/homebrew/lib/QtWidgets.framework/Headers/qabstractbutton.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton:
 
 /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget:
 
-/opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton:
+/opt/homebrew/lib/QtWidgets.framework/Headers/QDockWidget:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qwindowdefs.h:
 
@@ -4423,6 +4406,8 @@ QtTest_autogen/mocs_compilation.cpp:
 
 /opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
 
+/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
+
 /opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake:
 
 /opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-release.cmake:
@@ -4438,8 +4423,6 @@ QtTest_autogen/mocs_compilation.cpp:
 /opt/homebrew/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake:
 
 /opt/homebrew/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ostream/put_character_sequence.h:
 
 /opt/homebrew/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake:
 
@@ -4557,8 +4540,6 @@ QtTest_autogen/mocs_compilation.cpp:
 
 /opt/homebrew/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/queue.h:
-
 /opt/homebrew/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h:
@@ -4580,8 +4561,6 @@ QtTest_autogen/mocs_compilation.cpp:
 /opt/homebrew/lib/QtCore.framework/Headers/q20utility.h:
 
 /opt/homebrew/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/deque:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qtresource.h:
 
@@ -4675,8 +4654,6 @@ QtTest_autogen/mocs_compilation.cpp:
 
 /opt/homebrew/lib/cmake/Qt6/QtFeatureCommon.cmake:
 
-/opt/homebrew/lib/cmake/Qt6/QtFeature.cmake:
-
 /opt/homebrew/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake:
 
 /opt/homebrew/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
@@ -4699,17 +4676,19 @@ QtTest_autogen/mocs_compilation.cpp:
 
 /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h:
 
+/opt/homebrew/lib/cmake/Qt6/QtFeature.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h:
+
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
 
 /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h:
 
-/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
-
-/opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h:
+/opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h:
 
 /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/QWidget:
 
-/opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/QPushButton:
+/opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qtdeprecationmarkers.h:
 
@@ -4788,6 +4767,8 @@ QtTest_autogen/mocs_compilation.cpp:
 /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h:
 
 /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow:
 
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake:
 
@@ -5113,6 +5094,8 @@ CMakeFiles/4.1.2/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:
 
+/opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qdockwidget.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qcoreevent.h:
@@ -5203,6 +5186,8 @@ CMakeFiles/4.1.2/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/array:
 
+/opt/homebrew/lib/QtWidgets.framework/Headers/qtabwidget.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/vector_bool.h:
 
 /opt/homebrew/lib/QtGui.framework/Headers/qpixmap.h:
@@ -5285,9 +5270,9 @@ CMakeFiles/4.1.2/CMakeSystem.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/convert_to_integral.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/deque.h:
-
 /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtCore.framework/Versions/A/Headers/q20iterator.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/as_const.h:
 
@@ -5775,8 +5760,6 @@ CMakeFiles/4.1.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__mutex/once_flag.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h:
-
 /opt/homebrew/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h:
@@ -6004,8 +5987,6 @@ CMakeFiles/4.1.2/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__atomic/is_always_lock_free.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/unwrap_range.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/format:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/streambuf.h:
 
@@ -6525,6 +6506,8 @@ CMakeFiles/4.1.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/pmr.h:
 
+/opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/QDockWidget:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
@@ -6627,8 +6610,6 @@ CMakeFiles/4.1.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ios:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/istream:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/three_way_comp_ref_type.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/mem_fun_ref.h:
@@ -6665,8 +6646,6 @@ CMakeFiles/4.1.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/piecewise_construct.h:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/merge.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/make_projected.h:
@@ -6676,8 +6655,6 @@ CMakeFiles/4.1.2/CMakeCXXCompiler.cmake:
 /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/size.h:
-
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/unistd.h:
 
 /opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:
 
@@ -6780,8 +6757,6 @@ CMakeFiles/4.1.2/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_core_convertible.h:
-
-/opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/__xlocale.h:
 
@@ -6902,6 +6877,8 @@ CMakeFiles/4.1.2/CMakeCXXCompiler.cmake:
 /opt/homebrew/lib/cmake/Qt6Core/Qt6QDarwinCameraPermissionPluginTargets.cmake:
 
 /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtCore.framework/Versions/A/Headers/qchar.h:
+
+/opt/homebrew/lib/QtWidgets.framework/Headers/qdockwidget.h:
 
 /opt/homebrew/lib/QtCore.framework/Headers/qline.h:
 

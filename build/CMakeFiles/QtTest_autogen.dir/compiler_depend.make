@@ -885,11 +885,13 @@ QtTest_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platforms/M
   /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
   /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
   /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
-  /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/QPushButton \
+  /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/QDockWidget \
+  /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
   /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/QWidget \
-  /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
-  /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+  /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qdockwidget.h \
+  /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
   /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+  /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
   /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
   /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
   /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
@@ -1213,6 +1215,8 @@ QtTest_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platforms/M
 
 /opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
 
+/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
+
 /opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake:
 
 /opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-release.cmake:
@@ -1427,8 +1431,6 @@ QtTest_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platforms/M
 
 /opt/homebrew/lib/cmake/Qt6/QtFeatureCommon.cmake:
 
-/opt/homebrew/lib/cmake/Qt6/QtFeature.cmake:
-
 /opt/homebrew/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake:
 
 /opt/homebrew/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
@@ -1449,17 +1451,19 @@ QtTest_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platforms/M
 
 /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h:
 
+/opt/homebrew/lib/cmake/Qt6/QtFeature.cmake:
+
+/opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h:
+
 /opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
 
 /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h:
 
-/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake:
-
-/opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h:
+/opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h:
 
 /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/QWidget:
 
-/opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/QPushButton:
+/opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow:
 
 /opt/homebrew/Cellar/qtbase/6.10.1/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h:
 
@@ -1820,6 +1824,8 @@ CMakeFiles/4.1.2/CMakeSystem.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/unreachable_sentinel.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view:
+
+/opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qdockwidget.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h:
 
@@ -3093,6 +3099,8 @@ CMakeFiles/4.1.2/CMakeCXXCompiler.cmake:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__vector/pmr.h:
 
+/opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/QDockWidget:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_pthread/_pthread_attr_t.h:
@@ -3306,8 +3314,6 @@ CMakeFiles/4.1.2/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocate_at_least.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_core_convertible.h:
-
-/opt/homebrew/Cellar/qtbase/6.10.1/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/__xlocale.h:
 

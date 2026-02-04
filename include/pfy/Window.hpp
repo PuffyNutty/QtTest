@@ -1,21 +1,15 @@
 #include <cstdint>
-#include <QPushButton>
+#include <QDockWidget>
+#include <QMainWindow>
 #include <QWidget>
 
-class Window : public QWidget
+class Window : public QMainWindow
 {
 Q_OBJECT
 public:
-    explicit Window(QWidget* parent = 0);
-
-signals:
-    void checkmarkClicked11Times();
-
-private slots:
-    void slotToggleCheckMark(bool checked);
-    void slotCheckmarkClicked11Times();
-
+    explicit Window(const char* pTitle, uint32_t width, uint32_t height, QWidget* pParent = NULL);
+     
 private:
-    uint32_t _numberOfTimesClicked = 0;
-    QPushButton* _pCheckMark;
+    QWidget* _pMainWidget = nullptr;
+    QDockWidget* _pDockWidget = nullptr;
 };

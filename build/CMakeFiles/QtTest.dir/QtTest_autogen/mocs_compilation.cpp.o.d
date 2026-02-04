@@ -33,8 +33,8 @@ CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_uintptr_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_intmax_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_uintmax_t.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/QPushButton \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qpushbutton.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QDockWidget \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qdockwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtwidgetsglobal.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qtguiglobal.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qglobal.h \
@@ -709,10 +709,10 @@ CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/lib/QtGui.framework/Headers/qtguiexports.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtwidgets-config.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qtwidgetsexports.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qabstractbutton.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/qicon.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qsize.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qcheckedint_impl.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qwindowdefs.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qobjectdefs.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qnamespace.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qcompare.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qstdlibdetection.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qcomparehelpers.h \
@@ -846,14 +846,15 @@ CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
-  /opt/homebrew/lib/QtCore.framework/Headers/qhashfunctions.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qtmetamacros.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qobjectdefs_impl.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qfunctionaltools_impl.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qobject.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qstring.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qchar.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qstringview.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qbytearray.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qrefcount.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qnamespace.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qtmetamacros.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qarraydata.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qpair.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qarraydatapointer.h \
@@ -875,6 +876,8 @@ CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/lib/QtCore.framework/Headers/qstringbuilder.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qstringconverter.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qstringconverter_base.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qlist.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qhashfunctions.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/numeric \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/accumulate.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h \
@@ -890,43 +893,15 @@ CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_execution_policy.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qmargins.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/q23utility.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/q20utility.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qlist.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qiterator.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qbytearraylist.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qstringlist.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qalgorithms.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qstringmatcher.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/qpixmap.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/qpaintdevice.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/qwindowdefs.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qobjectdefs.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qobjectdefs_impl.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qfunctionaltools_impl.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qrect.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qpoint.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/qcolor.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/qrgb.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/qrgba64.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qshareddata.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/qimage.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/qpixelformat.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/qtransform.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/qpolygon.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/qregion.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qscopedpointer.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qmetatype.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qdatastream.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qiodevicebase.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qscopedpointer.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qspan.h \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
-  /opt/homebrew/lib/QtCore.framework/Headers/q20iterator.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qline.h \
-  /opt/homebrew/lib/QtGui.framework/Headers/qkeysequence.h \
-  /opt/homebrew/lib/QtWidgets.framework/Headers/qwidget.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qobject.h \
-  /opt/homebrew/lib/QtCore.framework/Headers/qmetatype.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qfloat16.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qmath.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qtformat_impl.h \
@@ -943,7 +918,31 @@ CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__chrono/file_clock.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
+  /opt/homebrew/lib/QtCore.framework/Headers/qmargins.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qcheckedint_impl.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/q23utility.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/q20utility.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qaction.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qkeysequence.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qicon.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qsize.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qpixmap.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qpaintdevice.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qrect.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qpoint.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qcolor.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qrgb.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qrgba64.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qshareddata.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qimage.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qpixelformat.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qtransform.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qpolygon.h \
+  /opt/homebrew/lib/QtGui.framework/Headers/qregion.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qspan.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
+  /opt/homebrew/lib/QtCore.framework/Headers/q20iterator.h \
+  /opt/homebrew/lib/QtCore.framework/Headers/qline.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qvariant.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qdebug.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qtextstream.h \
@@ -968,6 +967,9 @@ CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.o: \
   /opt/homebrew/lib/QtWidgets.framework/Headers/qsizepolicy.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qcursor.h \
   /opt/homebrew/lib/QtGui.framework/Headers/qbitmap.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/QMainWindow \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qmainwindow.h \
+  /opt/homebrew/lib/QtWidgets.framework/Headers/qtabwidget.h \
   /opt/homebrew/lib/QtWidgets.framework/Headers/QWidget \
   /opt/homebrew/lib/QtCore.framework/Headers/qtmochelpers.h \
   /opt/homebrew/lib/QtCore.framework/Headers/qtmocconstants.h \

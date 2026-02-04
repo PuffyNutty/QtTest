@@ -10,7 +10,7 @@ Item { // Item is the most basic visual QML type and used as container for other
 
     Rectangle { // The visual part of the cell is just a colored rectangle.
         id: rectangle
-        border.color: "white"
+        border.color: page.color
         anchors.fill: parent // Specify the rectangle to share the same dimensions as the parent.
     }
 

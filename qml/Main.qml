@@ -1,5 +1,6 @@
 import QtQuick // Basic QML types (rect, text, etc)
-import QtQuick.Controls // Interactive QML types (Button, Slider, etc)
+
+import "Main.js" as GameLogic
 
 
 Rectangle {
@@ -36,7 +37,7 @@ Rectangle {
             anchors.left: parent.left
             anchors.verticalCenter: parent.verticalCenter
             text: "New Game"
-            onClicked: console.log("Starting new game...")
+            onClicked: GameLogic.startNewGame()
         }
         Text {
             id: scoreboard
@@ -44,6 +45,7 @@ Rectangle {
             anchors.left: parent.horizontalCenter
             anchors.verticalCenter: parent.verticalCenter
             text: "Score: "
+            font: "Avenir"
             horizontalAlignment: Text.AlignHCenter
             color: activePalette.windowText
         }

@@ -67,8 +67,7 @@ include CMakeFiles/QtTest_qmllint_json.dir/compiler_depend.make
 include CMakeFiles/QtTest_qmllint_json.dir/progress.make
 
 CMakeFiles/QtTest_qmllint_json: /opt/homebrew/bin/qmllint
-CMakeFiles/QtTest_qmllint_json: /Users/patrickseweryn/Developer/Projects/qtTest/qml/Main.qml
-CMakeFiles/QtTest_qmllint_json: /Users/patrickseweryn/Developer/Projects/qtTest/qml/Cell.qml
+CMakeFiles/QtTest_qmllint_json: /Users/patrickseweryn/Developer/Projects/qtTest/qml/pfy/Main.qml
 CMakeFiles/QtTest_qmllint_json: .rcc/qmllint/QtTest_json.rsp
 	cd /Users/patrickseweryn/Developer/Projects/qtTest && /opt/homebrew/bin/qmllint @/Users/patrickseweryn/Developer/Projects/qtTest/build/.rcc/qmllint/QtTest_json.rsp
 

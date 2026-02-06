@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/Users/patrickseweryn/Developer/Projects/qtTest/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/Users/patrickseweryn/Developer/Projects/qtTest/build/QtTest_autogen/include -I/Users/patrickseweryn/Developer/Projects/qtTest -isystem /opt/homebrew/lib/QtQml.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/include/QtQmlIntegration -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -isystem /opt/homebrew/lib/QtQuick.framework/Headers -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtOpenGL.framework/Headers -std=gnu++17 -arch arm64 -o CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.o -c /Users/patrickseweryn/Developer/Projects/qtTest/build/QtTest_autogen/mocs_compilation.cpp",
+  "file": "/Users/patrickseweryn/Developer/Projects/qtTest/build/QtTest_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/Users/patrickseweryn/Developer/Projects/qtTest/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/Users/patrickseweryn/Developer/Projects/qtTest/build/QtTest_autogen/include -I/Users/patrickseweryn/Developer/Projects/qtTest -isystem /opt/homebrew/lib/QtQml.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/include/QtQmlIntegration -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -isystem /opt/homebrew/lib/QtQuick.framework/Headers -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtOpenGL.framework/Headers -std=gnu++17 -arch arm64 -o CMakeFiles/QtTest.dir/src/pfy/main.cpp.o -c /Users/patrickseweryn/Developer/Projects/qtTest/src/pfy/main.cpp",
+  "file": "/Users/patrickseweryn/Developer/Projects/qtTest/src/pfy/main.cpp",
+  "output": "CMakeFiles/QtTest.dir/src/pfy/main.cpp.o"
+},
+{
+  "directory": "/Users/patrickseweryn/Developer/Projects/qtTest/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/Users/patrickseweryn/Developer/Projects/qtTest/build/QtTest_autogen/include -I/Users/patrickseweryn/Developer/Projects/qtTest -isystem /opt/homebrew/lib/QtQml.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/include/QtQmlIntegration -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -isystem /opt/homebrew/lib/QtQuick.framework/Headers -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtOpenGL.framework/Headers -std=gnu++17 -arch arm64 -o CMakeFiles/QtTest.dir/qttest_qmltyperegistrations.cpp.o -c /Users/patrickseweryn/Developer/Projects/qtTest/build/qttest_qmltyperegistrations.cpp",
+  "file": "/Users/patrickseweryn/Developer/Projects/qtTest/build/qttest_qmltyperegistrations.cpp",
+  "output": "CMakeFiles/QtTest.dir/qttest_qmltyperegistrations.cpp.o"
+},
+{
+  "directory": "/Users/patrickseweryn/Developer/Projects/qtTest/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/Users/patrickseweryn/Developer/Projects/qtTest/build/QtTest_autogen/include -I/Users/patrickseweryn/Developer/Projects/qtTest -isystem /opt/homebrew/lib/QtQml.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/include/QtQmlIntegration -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -isystem /opt/homebrew/lib/QtQuick.framework/Headers -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtOpenGL.framework/Headers -std=gnu++17 -arch arm64 -o CMakeFiles/QtTest.dir/build/.qt/rcc/qrc_qmake_MyModule.cpp.o -c /Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/qrc_qmake_MyModule.cpp",
+  "file": "/Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/qrc_qmake_MyModule.cpp",
+  "output": "CMakeFiles/QtTest.dir/build/.qt/rcc/qrc_qmake_MyModule.cpp.o"
+},
+{
+  "directory": "/Users/patrickseweryn/Developer/Projects/qtTest/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/Users/patrickseweryn/Developer/Projects/qtTest/build/QtTest_autogen/include -I/Users/patrickseweryn/Developer/Projects/qtTest -isystem /opt/homebrew/lib/QtQml.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/include/QtQmlIntegration -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -isystem /opt/homebrew/lib/QtQuick.framework/Headers -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtOpenGL.framework/Headers -std=gnu++17 -arch arm64 -o CMakeFiles/QtTest.dir/build/.rcc/qmlcache/QtTest_qmlcache_loader.cpp.o -c /Users/patrickseweryn/Developer/Projects/qtTest/build/.rcc/qmlcache/QtTest_qmlcache_loader.cpp",
+  "file": "/Users/patrickseweryn/Developer/Projects/qtTest/build/.rcc/qmlcache/QtTest_qmlcache_loader.cpp",
+  "output": "CMakeFiles/QtTest.dir/build/.rcc/qmlcache/QtTest_qmlcache_loader.cpp.o"
+},
+{
+  "directory": "/Users/patrickseweryn/Developer/Projects/qtTest/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/Users/patrickseweryn/Developer/Projects/qtTest/build/QtTest_autogen/include -I/Users/patrickseweryn/Developer/Projects/qtTest -isystem /opt/homebrew/lib/QtQml.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/include/QtQmlIntegration -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -isystem /opt/homebrew/lib/QtQuick.framework/Headers -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtOpenGL.framework/Headers -std=gnu++17 -arch arm64 -o CMakeFiles/QtTest.dir/build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.o -c /Users/patrickseweryn/Developer/Projects/qtTest/build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp",
+  "file": "/Users/patrickseweryn/Developer/Projects/qtTest/build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp",
+  "output": "CMakeFiles/QtTest.dir/build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.o"
+},
+{
+  "directory": "/Users/patrickseweryn/Developer/Projects/qtTest/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/Users/patrickseweryn/Developer/Projects/qtTest/build/QtTest_autogen/include -I/Users/patrickseweryn/Developer/Projects/qtTest -isystem /opt/homebrew/lib/QtQml.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/include/QtQmlIntegration -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -isystem /opt/homebrew/lib/QtQuick.framework/Headers -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtOpenGL.framework/Headers -std=gnu++17 -arch arm64 -o CMakeFiles/QtTest.dir/build/.qt/rcc/qrc_QtTest_raw_qml_0.cpp.o -c /Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/qrc_QtTest_raw_qml_0.cpp",
+  "file": "/Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/qrc_QtTest_raw_qml_0.cpp",
+  "output": "CMakeFiles/QtTest.dir/build/.qt/rcc/qrc_QtTest_raw_qml_0.cpp.o"
+},
+{
+  "directory": "/Users/patrickseweryn/Developer/Projects/qtTest/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB -I/Users/patrickseweryn/Developer/Projects/qtTest/build/QtTest_autogen/include -I/Users/patrickseweryn/Developer/Projects/qtTest -isystem /opt/homebrew/lib/QtQml.framework/Headers -iframework /opt/homebrew/lib -isystem /opt/homebrew/lib/QtCore.framework/Headers -isystem /opt/homebrew/share/qt/mkspecs/macx-clang -isystem /opt/homebrew/include -isystem /opt/homebrew/include/QtQmlIntegration -isystem /opt/homebrew/lib/QtNetwork.framework/Headers -isystem /opt/homebrew/lib/QtQuick.framework/Headers -isystem /opt/homebrew/lib/QtGui.framework/Headers -isystem /opt/homebrew/lib/QtOpenGL.framework/Headers -std=gnu++17 -arch arm64 -o CMakeFiles/QtTest.dir/build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.cpp.o -c /Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.cpp",
+  "file": "/Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.cpp",
+  "output": "CMakeFiles/QtTest.dir/build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.cpp.o"
+}
+]

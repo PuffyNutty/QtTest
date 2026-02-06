@@ -5,14 +5,7 @@
 #include <QtCore/qstring.h>
 
 namespace QmlCacheGeneratedCode {
-namespace _qt_qml_hello_qml_Main_qml { 
-    extern const unsigned char qmlData[];
-    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
-    const QQmlPrivate::CachedQmlUnit unit = {
-        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
-    };
-}
-namespace _qt_qml_hello_qml_Cell_qml { 
+namespace _qt_qml_MyModule_qml_pfy_Main_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -33,8 +26,7 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 
 
 Registry::Registry() {
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/hello/qml/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_hello_qml_Main_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/hello/qml/Cell.qml"), &QmlCacheGeneratedCode::_qt_qml_hello_qml_Cell_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/MyModule/qml/pfy/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_MyModule_qml_pfy_Main_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

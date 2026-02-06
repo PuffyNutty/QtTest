@@ -67,8 +67,7 @@ include CMakeFiles/QtTest_qmllint.dir/compiler_depend.make
 include CMakeFiles/QtTest_qmllint.dir/progress.make
 
 CMakeFiles/QtTest_qmllint: /opt/homebrew/bin/qmllint
-CMakeFiles/QtTest_qmllint: /Users/patrickseweryn/Developer/Projects/qtTest/qml/Main.qml
-CMakeFiles/QtTest_qmllint: /Users/patrickseweryn/Developer/Projects/qtTest/qml/Cell.qml
+CMakeFiles/QtTest_qmllint: /Users/patrickseweryn/Developer/Projects/qtTest/qml/pfy/Main.qml
 CMakeFiles/QtTest_qmllint: .rcc/qmllint/QtTest.rsp
 	cd /Users/patrickseweryn/Developer/Projects/qtTest && /opt/homebrew/bin/qmllint @/Users/patrickseweryn/Developer/Projects/qtTest/build/.rcc/qmllint/QtTest.rsp
 

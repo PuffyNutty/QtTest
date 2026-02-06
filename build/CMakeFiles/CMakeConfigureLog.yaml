@@ -22,6 +22,7 @@ events:
     candidate_directories:
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -39,6 +40,7 @@ events:
     searched_directories:
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/uname"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/uname"
+      - "/Users/patrickseweryn/.local/bin/uname"
       - "/opt/homebrew/bin/uname"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/uname"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/uname"
@@ -49,6 +51,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -93,6 +96,7 @@ events:
     candidate_directories:
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -110,6 +114,7 @@ events:
     searched_directories:
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/gmake"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/gmake"
+      - "/Users/patrickseweryn/.local/bin/gmake"
       - "/opt/homebrew/bin/gmake"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/gmake"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/gmake"
@@ -126,6 +131,7 @@ events:
       - "/Library/Apple/usr/bin/gmake"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/make"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/make"
+      - "/Users/patrickseweryn/.local/bin/make"
       - "/opt/homebrew/bin/make"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/make"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/make"
@@ -136,6 +142,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -178,6 +185,7 @@ events:
     candidate_directories:
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -195,6 +203,7 @@ events:
     searched_directories:
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/c++"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/c++"
+      - "/Users/patrickseweryn/.local/bin/c++"
       - "/opt/homebrew/bin/c++"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/c++"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/c++"
@@ -205,6 +214,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -248,6 +258,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -348,6 +359,7 @@ events:
       - "/usr/bin/"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -366,6 +378,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -403,6 +416,7 @@ events:
       - "/usr/bin/"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -421,6 +435,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -458,6 +473,7 @@ events:
       - "/usr/bin/"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -476,6 +492,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -513,6 +530,7 @@ events:
       - "/usr/bin/"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -531,6 +549,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -568,6 +587,7 @@ events:
       - "/usr/bin/"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -586,6 +606,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -623,6 +644,7 @@ events:
       - "/usr/bin/"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -641,6 +663,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -678,6 +701,7 @@ events:
       - "/usr/bin/"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -695,6 +719,7 @@ events:
       - "/usr/bin/objcopy"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/objcopy"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/objcopy"
+      - "/Users/patrickseweryn/.local/bin/objcopy"
       - "/opt/homebrew/bin/objcopy"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/objcopy"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/objcopy"
@@ -713,6 +738,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -750,6 +776,7 @@ events:
       - "/usr/bin/"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -767,6 +794,7 @@ events:
       - "/usr/bin/readelf"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/readelf"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/readelf"
+      - "/Users/patrickseweryn/.local/bin/readelf"
       - "/opt/homebrew/bin/readelf"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/readelf"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/readelf"
@@ -785,6 +813,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -822,6 +851,7 @@ events:
       - "/usr/bin/"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -839,6 +869,7 @@ events:
       - "/usr/bin/dlltool"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/dlltool"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/dlltool"
+      - "/Users/patrickseweryn/.local/bin/dlltool"
       - "/opt/homebrew/bin/dlltool"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/dlltool"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/dlltool"
@@ -857,6 +888,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -894,6 +926,7 @@ events:
       - "/usr/bin/"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -911,6 +944,7 @@ events:
       - "/usr/bin/addr2line"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/addr2line"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/addr2line"
+      - "/Users/patrickseweryn/.local/bin/addr2line"
       - "/opt/homebrew/bin/addr2line"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/addr2line"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/addr2line"
@@ -929,6 +963,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -966,6 +1001,7 @@ events:
       - "/usr/bin/"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -983,6 +1019,7 @@ events:
       - "/usr/bin/tapi"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/tapi"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/tapi"
+      - "/Users/patrickseweryn/.local/bin/tapi"
       - "/opt/homebrew/bin/tapi"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/tapi"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/tapi"
@@ -1001,6 +1038,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -1037,6 +1075,7 @@ events:
     candidate_directories:
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -1054,6 +1093,7 @@ events:
     searched_directories:
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/install_name_tool"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/install_name_tool"
+      - "/Users/patrickseweryn/.local/bin/install_name_tool"
       - "/opt/homebrew/bin/install_name_tool"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/install_name_tool"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/install_name_tool"
@@ -1064,6 +1104,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -1088,8 +1129,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-EYEflI"
-      binary: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-EYEflI"
+      source: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-hpxlvw"
+      binary: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-hpxlvw"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1102,19 +1143,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-EYEflI'
+        Change Dir: '/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-hpxlvw'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_14a0f/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_14a0f.dir/build.make CMakeFiles/cmTC_14a0f.dir/build
-        Building CXX object CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e315a/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e315a.dir/build.make CMakeFiles/cmTC_e315a.dir/build
+        Building CXX object CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 17.0.0 (clang-1700.6.3.2)
         Target: arm64-apple-darwin25.2.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-EYEflI -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-EYEflI -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-hpxlvw -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-hpxlvw -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target arm64-apple-darwin25.2.0
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"
         ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
@@ -1128,13 +1169,13 @@ events:
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_14a0f
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14a0f.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_e315a
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e315a.dir/link.txt --verbose=1
         Apple clang version 17.0.0 (clang-1700.6.3.2)
         Target: arm64-apple-darwin25.2.0
         Thread model: posix
         InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
-         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_14a0f -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e315a -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1230.1
         BUILD 06:36:05 Dec  2 2025
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -1147,7 +1188,7 @@ events:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_14a0f
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e315a
         
       exitCode: 0
   -
@@ -1193,19 +1234,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-EYEflI']
+        ignore line: [Change Dir: '/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-hpxlvw']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_14a0f/fast]
-        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_14a0f.dir/build.make CMakeFiles/cmTC_14a0f.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e315a/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e315a.dir/build.make CMakeFiles/cmTC_e315a.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
         ignore line: [Target: arm64-apple-darwin25.2.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-EYEflI -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-EYEflI -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-hpxlvw -target-linker-version 1230.1 -v -fcoverage-compilation-dir=/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-hpxlvw -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17 -dependency-file CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 17.0.0 (clang-1700.6.3.2) default target arm64-apple-darwin25.2.0]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"]
@@ -1219,13 +1260,13 @@ events:
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_14a0f]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14a0f.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_e315a]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e315a.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
         ignore line: [Target: arm64-apple-darwin25.2.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
-        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_14a0f -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_e315a -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1242,12 +1283,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_14a0f] ==> ignore
+          arg [cmTC_e315a] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_14a0f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_e315a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/17/lib/darwin/libclang_rt.osx.a]
@@ -1293,12 +1334,12 @@ events:
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Dependencies.cmake:38 (_qt_internal_find_third_party_dependencies)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:176 (include)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-LpH9rm"
-      binary: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-LpH9rm"
+      source: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-BqD9CE"
+      binary: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-BqD9CE"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1311,35 +1352,35 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-LpH9rm'
+        Change Dir: '/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-BqD9CE'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_194cc/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_194cc.dir/build.make CMakeFiles/cmTC_194cc.dir/build
-        Building CXX object CMakeFiles/cmTC_194cc.dir/src.cxx.o
-        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_194cc.dir/src.cxx.o -MF CMakeFiles/cmTC_194cc.dir/src.cxx.o.d -o CMakeFiles/cmTC_194cc.dir/src.cxx.o -c /Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-LpH9rm/src.cxx
-        Linking CXX executable cmTC_194cc
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_194cc.dir/link.txt --verbose=1
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_194cc.dir/src.cxx.o -o cmTC_194cc
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e8261/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e8261.dir/build.make CMakeFiles/cmTC_e8261.dir/build
+        Building CXX object CMakeFiles/cmTC_e8261.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_e8261.dir/src.cxx.o -MF CMakeFiles/cmTC_e8261.dir/src.cxx.o.d -o CMakeFiles/cmTC_e8261.dir/src.cxx.o -c /Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-BqD9CE/src.cxx
+        Linking CXX executable cmTC_e8261
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8261.dir/link.txt --verbose=1
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e8261.dir/src.cxx.o -o cmTC_e8261
         
       exitCode: 0
   -
     kind: "find_package-v1"
     backtrace:
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
-      - "/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:14 (_qt_internal_find_tool_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:36 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6QuickTools/Qt6QuickToolsDependencies.cmake:14 (_qt_internal_find_tool_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfig.cmake:36 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
-    name: "Qt6CoreTools"
+      - "CMakeLists.txt:10 (find_package)"
+    name: "Qt6QmlTools"
     configs:
       -
-        filename: "Qt6CoreToolsConfig.cmake"
+        filename: "Qt6QmlToolsConfig.cmake"
         kind: "cmake"
       -
-        filename: "qt6coretools-config.cmake"
+        filename: "qt6qmltools-config.cmake"
         kind: "cmake"
     version_request:
       version: "6.10.1"
@@ -1352,9 +1393,9 @@ events:
       policy_scope: true
       bypass_provider: false
       names:
-        - "Qt6CoreTools"
+        - "Qt6QmlTools"
       search_paths:
-        - "/opt/homebrew/lib/cmake/Qt6WidgetsTools/.."
+        - "/opt/homebrew/lib/cmake/Qt6QuickTools/.."
         - "/opt/homebrew/lib/cmake"
       path_suffixes:
         - ""
@@ -1370,37 +1411,46 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6QmlToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6qmltools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/Qt6CoreToolsConfig.cmake"
+        path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/Qt6QmlToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/qt6coretools-config.cmake"
+        path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/qt6qmltools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/opt/homebrew/Qt6CoreToolsConfig.cmake"
+        path: "/Users/patrickseweryn/.local/Qt6QmlToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/opt/homebrew/qt6coretools-config.cmake"
+        path: "/Users/patrickseweryn/.local/qt6qmltools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/Qt6QmlToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/qt6qmltools-config.cmake"
         mode: "config"
         reason: "no_exist"
     found:
-      path: "/opt/homebrew/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake"
+      path: "/opt/homebrew/lib/cmake/Qt6QmlTools/Qt6QmlToolsConfig.cmake"
       mode: "config"
       version: "6.10.1"
     search_context:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -1443,20 +1493,17 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
-      - "/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:14 (_qt_internal_find_tool_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake:36 (include)"
-      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
-    name: "Qt6GuiTools"
+      - "CMakeLists.txt:10 (find_package)"
+    name: "Qt6QuickTools"
     configs:
       -
-        filename: "Qt6GuiToolsConfig.cmake"
+        filename: "Qt6QuickToolsConfig.cmake"
         kind: "cmake"
       -
-        filename: "qt6guitools-config.cmake"
+        filename: "qt6quicktools-config.cmake"
         kind: "cmake"
     version_request:
       version: "6.10.1"
@@ -1469,9 +1516,9 @@ events:
       policy_scope: true
       bypass_provider: false
       names:
-        - "Qt6GuiTools"
+        - "Qt6QuickTools"
       search_paths:
-        - "/opt/homebrew/lib/cmake/Qt6WidgetsTools/.."
+        - "/opt/homebrew/lib/cmake/Qt6Quick/.."
         - "/opt/homebrew/lib/cmake"
       path_suffixes:
         - ""
@@ -1487,151 +1534,46 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6QuickToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6quicktools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/Qt6GuiToolsConfig.cmake"
+        path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/Qt6QuickToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/qt6guitools-config.cmake"
+        path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/qt6quicktools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/opt/homebrew/Qt6GuiToolsConfig.cmake"
+        path: "/Users/patrickseweryn/.local/Qt6QuickToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/opt/homebrew/qt6guitools-config.cmake"
+        path: "/Users/patrickseweryn/.local/qt6quicktools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/Qt6QuickToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/qt6quicktools-config.cmake"
         mode: "config"
         reason: "no_exist"
     found:
-      path: "/opt/homebrew/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake"
+      path: "/opt/homebrew/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfig.cmake"
       mode: "config"
       version: "6.10.1"
     search_context:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
-        - "/opt/homebrew/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
-        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
-        - "/usr/local/bin"
-        - "/System/Cryptexes/App/usr/bin"
-        - "/usr/bin"
-        - "/bin"
-        - "/usr/sbin"
-        - "/sbin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
-        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
-        - "/opt/pmk/env/global/bin"
-        - "/Library/Apple/usr/bin"
-      CMAKE_INSTALL_PREFIX: "/usr/local"
-      CMAKE_SYSTEM_PREFIX_PATH:
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr"
-        - "/"
-        - "/opt/homebrew"
-        - "/usr/local"
-        - "/usr/X11R6"
-        - "/usr/pkg"
-        - "/opt"
-        - "/sw"
-        - "/opt/local"
-      CMAKE_SYSTEM_FRAMEWORK_PATH:
-        - "~/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
-        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
-        - "/Library/Frameworks"
-        - "/Network/Library/Frameworks"
-        - "/System/Library/Frameworks"
-  -
-    kind: "find_package-v1"
-    backtrace:
-      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
-      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
-    name: "Qt6WidgetsTools"
-    configs:
-      -
-        filename: "Qt6WidgetsToolsConfig.cmake"
-        kind: "cmake"
-      -
-        filename: "qt6widgetstools-config.cmake"
-        kind: "cmake"
-    version_request:
-      version: "6.10.1"
-      version_complete: "6.10.1"
-      exact: false
-    settings:
-      required: "optional"
-      quiet: false
-      global: false
-      policy_scope: true
-      bypass_provider: false
-      names:
-        - "Qt6WidgetsTools"
-      search_paths:
-        - "/opt/homebrew/lib/cmake/Qt6Widgets/.."
-        - "/opt/homebrew/lib/cmake"
-      path_suffixes:
-        - ""
-      paths:
-        CMAKE_FIND_USE_CMAKE_PATH: true
-        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
-        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
-        CMAKE_FIND_USE_INSTALL_PREFIX: true
-        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
-        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
-        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
-        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
-    candidates:
-      -
-        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/Qt6WidgetsToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/qt6widgetstools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/opt/homebrew/Qt6WidgetsToolsConfig.cmake"
-        mode: "config"
-        reason: "no_exist"
-      -
-        path: "/opt/homebrew/qt6widgetstools-config.cmake"
-        mode: "config"
-        reason: "no_exist"
-    found:
-      path: "/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake"
-      mode: "config"
-      version: "6.10.1"
-    search_context:
-      ENV{PATH}:
-        - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
-        - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -1682,15 +1624,15 @@ events:
       - "/opt/homebrew/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:42 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-pGtkjx"
-      binary: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-pGtkjx"
+      source: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-KPV8AR"
+      binary: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-KPV8AR"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1703,17 +1645,144 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: '/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-pGtkjx'
+        Change Dir: '/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-KPV8AR'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_595ad/fast
-        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_595ad.dir/build.make CMakeFiles/cmTC_595ad.dir/build
-        Building CXX object CMakeFiles/cmTC_595ad.dir/src.cxx.o
-        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_595ad.dir/src.cxx.o -MF CMakeFiles/cmTC_595ad.dir/src.cxx.o.d -o CMakeFiles/cmTC_595ad.dir/src.cxx.o -c /Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-pGtkjx/src.cxx
-        Linking CXX executable cmTC_595ad
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_595ad.dir/link.txt --verbose=1
-        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_595ad.dir/src.cxx.o -o cmTC_595ad
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0ed2a/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0ed2a.dir/build.make CMakeFiles/cmTC_0ed2a.dir/build
+        Building CXX object CMakeFiles/cmTC_0ed2a.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -arch arm64 -MD -MT CMakeFiles/cmTC_0ed2a.dir/src.cxx.o -MF CMakeFiles/cmTC_0ed2a.dir/src.cxx.o.d -o CMakeFiles/cmTC_0ed2a.dir/src.cxx.o -c /Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/CMakeScratch/TryCompile-KPV8AR/src.cxx
+        Linking CXX executable cmTC_0ed2a
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ed2a.dir/link.txt --verbose=1
+        /usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0ed2a.dir/src.cxx.o -o cmTC_0ed2a
         
       exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:43 (_qt_internal_find_tool_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:42 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    name: "Qt6CoreTools"
+    configs:
+      -
+        filename: "Qt6CoreToolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6coretools-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6CoreTools"
+      search_paths:
+        - "/opt/homebrew/lib/cmake/Qt6Core/.."
+        - "/opt/homebrew/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/.local/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/.local/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/Qt6CoreToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/qt6coretools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
+        - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
   -
     kind: "find-v1"
     backtrace:
@@ -1722,10 +1791,10 @@ events:
       - "/opt/homebrew/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:190 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "program"
     variable: "MACDEPLOYQT_EXECUTABLE"
     description: "Path to a program."
@@ -1743,6 +1812,7 @@ events:
       - "/opt/homebrew/bin/"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
       - "/usr/local/bin/"
@@ -1794,6 +1864,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -1832,10 +1903,10 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     name: "Qt6Core"
     configs:
       -
@@ -1857,7 +1928,7 @@ events:
       names:
         - "Qt6Core"
       search_paths:
-        - "/opt/homebrew/lib/cmake/Qt6Widgets/.."
+        - "/opt/homebrew/lib/cmake/Qt6Quick/.."
         - "/opt/homebrew/lib/cmake"
       path_suffixes:
         - ""
@@ -1920,6 +1991,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -1969,10 +2041,10 @@ events:
       - "/opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "library"
     variable: "OPENGL_gl_LIBRARY"
     description: "OpenGL GL library"
@@ -1989,6 +2061,7 @@ events:
       - "GL"
     candidate_directories:
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/usr/local/bin/"
@@ -2017,6 +2090,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -2068,10 +2142,10 @@ events:
       - "/opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "library"
     variable: "OPENGL_glu_LIBRARY"
     description: "OpenGL GLU library"
@@ -2088,6 +2162,7 @@ events:
       - "GLU"
     candidate_directories:
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/usr/local/bin/"
@@ -2116,6 +2191,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -2167,10 +2243,10 @@ events:
       - "/opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "path"
     variable: "OPENGL_INCLUDE_DIR"
     description: "Include for OpenGL"
@@ -2188,6 +2264,7 @@ events:
     candidate_directories:
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -2234,6 +2311,7 @@ events:
     searched_directories:
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/OpenGL.framework/Headers/gl.h"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/OpenGL.framework/Headers/gl.h"
+      - "/Users/patrickseweryn/.local/bin/OpenGL.framework/Headers/gl.h"
       - "/opt/homebrew/bin/OpenGL.framework/Headers/gl.h"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/OpenGL.framework/Headers/gl.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/OpenGL.framework/Headers/gl.h"
@@ -2276,6 +2354,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -2327,10 +2406,10 @@ events:
       - "/opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "path"
     variable: "OPENGL_GLU_INCLUDE_DIR"
     description: "Include for the OpenGL GLU library"
@@ -2348,6 +2427,7 @@ events:
     candidate_directories:
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -2394,6 +2474,7 @@ events:
     searched_directories:
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/OpenGL.framework/Headers/glu.h"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/OpenGL.framework/Headers/glu.h"
+      - "/Users/patrickseweryn/.local/bin/OpenGL.framework/Headers/glu.h"
       - "/opt/homebrew/bin/OpenGL.framework/Headers/glu.h"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/OpenGL.framework/Headers/glu.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/OpenGL.framework/Headers/glu.h"
@@ -2436,6 +2517,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -2486,10 +2568,10 @@ events:
       - "/opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "path"
     variable: "Vulkan_INCLUDE_DIR"
     description: "Path to a file."
@@ -2507,6 +2589,7 @@ events:
       - "/include/"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -2554,6 +2637,7 @@ events:
       - "/include/vulkan.framework/Headers/vulkan.h"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/vulkan.framework/Headers/vulkan.h"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/vulkan.framework/Headers/vulkan.h"
+      - "/Users/patrickseweryn/.local/bin/vulkan.framework/Headers/vulkan.h"
       - "/opt/homebrew/bin/vulkan.framework/Headers/vulkan.h"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/vulkan.framework/Headers/vulkan.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/vulkan.framework/Headers/vulkan.h"
@@ -2600,6 +2684,7 @@ events:
       - "/include/vulkan/vulkan.h"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/vulkan/vulkan.h"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/vulkan/vulkan.h"
+      - "/Users/patrickseweryn/.local/bin/vulkan/vulkan.h"
       - "/opt/homebrew/bin/vulkan/vulkan.h"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/vulkan/vulkan.h"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/vulkan/vulkan.h"
@@ -2623,6 +2708,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -2673,10 +2759,10 @@ events:
       - "/opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "library"
     variable: "Vulkan_LIBRARY"
     description: "Path to a library."
@@ -2692,6 +2778,7 @@ events:
       - "vulkan"
     candidate_directories:
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/usr/local/bin/"
@@ -2717,6 +2804,7 @@ events:
       - "/System/Library/Frameworks/"
     searched_directories:
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/usr/local/bin/"
@@ -2735,6 +2823,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -2785,10 +2874,10 @@ events:
       - "/opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLC_EXECUTABLE"
     description: "Path to a program."
@@ -2806,6 +2895,7 @@ events:
       - "/bin/"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -2856,6 +2946,7 @@ events:
       - "/bin/glslc"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/glslc"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/glslc"
+      - "/Users/patrickseweryn/.local/bin/glslc"
       - "/opt/homebrew/bin/glslc"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/glslc"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/glslc"
@@ -2864,6 +2955,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -2907,10 +2999,10 @@ events:
       - "/opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     mode: "program"
     variable: "Vulkan_GLSLANG_VALIDATOR_EXECUTABLE"
     description: "Path to a program."
@@ -2928,6 +3020,7 @@ events:
       - "/bin/"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/"
+      - "/Users/patrickseweryn/.local/bin/"
       - "/opt/homebrew/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
@@ -2978,6 +3071,7 @@ events:
       - "/bin/glslangValidator"
       - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin/glslangValidator"
       - "/Users/patrickseweryn/VulkanSDK/current/macOS/bin/glslangValidator"
+      - "/Users/patrickseweryn/.local/bin/glslangValidator"
       - "/opt/homebrew/bin/glslangValidator"
       - "/Library/Frameworks/Python.framework/Versions/3.13/bin/glslangValidator"
       - "/Library/Frameworks/Python.framework/Versions/3.12/bin/glslangValidator"
@@ -2986,6 +3080,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -3023,6 +3118,133 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:44 (_qt_internal_find_tool_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    name: "Qt6GuiTools"
+    configs:
+      -
+        filename: "Qt6GuiToolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6guitools-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6GuiTools"
+      search_paths:
+        - "/opt/homebrew/lib/cmake/Qt6Gui/.."
+        - "/opt/homebrew/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/.local/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/.local/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/Qt6GuiToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/qt6guitools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
+        - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:100 (find_package)"
       - "/opt/homebrew/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake:42 (_qt_internal_find_tool_dependencies)"
       - "/opt/homebrew/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake:40 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
@@ -3031,10 +3253,10 @@ events:
       - "/opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     name: "Qt6DBusTools"
     configs:
       -
@@ -3088,6 +3310,14 @@ events:
         mode: "config"
         reason: "no_exist"
       -
+        path: "/Users/patrickseweryn/.local/Qt6DBusToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/.local/qt6dbustools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
         path: "/opt/homebrew/Qt6DBusToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
@@ -3103,6 +3333,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -3150,10 +3381,10 @@ events:
       - "/opt/homebrew/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:40 (include)"
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     name: "Qt6DBus"
     configs:
       -
@@ -3214,6 +3445,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -3257,10 +3489,10 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
       - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
-      - "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     name: "Qt6Gui"
     configs:
       -
@@ -3282,7 +3514,7 @@ events:
       names:
         - "Qt6Gui"
       search_paths:
-        - "/opt/homebrew/lib/cmake/Qt6Widgets/.."
+        - "/opt/homebrew/lib/cmake/Qt6Quick/.."
         - "/opt/homebrew/lib/cmake"
       path_suffixes:
         - ""
@@ -3329,6 +3561,1620 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake:43 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    name: "Qt6QmlIntegration"
+    configs:
+      -
+        filename: "Qt6QmlIntegrationConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6qmlintegration-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6QmlIntegration"
+      search_paths:
+        - "/opt/homebrew/lib/cmake/Qt6Qml/.."
+        - "/opt/homebrew/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6QmlIntegrationConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6qmlintegration-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlIntegrationConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/qt6qmlintegration-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
+        - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake:43 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    name: "Qt6Network"
+    configs:
+      -
+        filename: "Qt6NetworkConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6network-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Network"
+      search_paths:
+        - "/opt/homebrew/lib/cmake/Qt6Qml/.."
+        - "/opt/homebrew/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6NetworkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6network-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6NetworkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/qt6network-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6NetworkAuth/Qt6NetworkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6NetworkAuth/qt6network-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6NetworkPrivate/Qt6NetworkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6NetworkPrivate/qt6network-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6NetworkAuthPrivate/Qt6NetworkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6NetworkAuthPrivate/qt6network-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
+        - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlFindQmlscInternal.cmake:34 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake:191 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    name: "Qt6QmlCompilerPlusPrivateTools"
+    configs:
+      -
+        filename: "Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6qmlcompilerplusprivatetools-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6QmlCompilerPlusPrivateTools"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/.local/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/.local/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/Python.framework/Versions/3.13/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/Python.framework/Versions/3.13/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Cryptexes/App/usr/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Cryptexes/App/usr/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Apple/usr/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Apple/usr/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Library/Frameworks/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/System/Library/Frameworks/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/Applications/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/Applications/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Applications/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Applications/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Applications/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Applications/Xcode.app/Contents/Developer/Applications/qt6qmlcompilerplusprivatetools-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
+        - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6ExamplesAssetDownloaderPrivate/Qt6ExamplesAssetDownloaderPrivateDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6ExamplesAssetDownloaderPrivate/Qt6ExamplesAssetDownloaderPrivateConfig.cmake:40 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6QmlAssetDownloader/Qt6QmlAssetDownloaderDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6QmlAssetDownloader/Qt6QmlAssetDownloaderConfig.cmake:40 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlAssetDownloaderpluginDependencies.cmake:22 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlAssetDownloaderpluginConfig.cmake:52 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicPluginHelpers.cmake:638 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlPlugins.cmake:6 (__qt_internal_include_qml_plugin_packages)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake:195 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    name: "Qt6Concurrent"
+    configs:
+      -
+        filename: "Qt6ConcurrentConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6concurrent-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Concurrent"
+      search_paths:
+        - "/opt/homebrew/lib/cmake/Qt6ExamplesAssetDownloaderPrivate/.."
+        - "/opt/homebrew/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6ConcurrentConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6concurrent-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6ConcurrentConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/qt6concurrent-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/Qt6Concurrent/Qt6ConcurrentConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
+        - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6QmlAssetDownloader/Qt6QmlAssetDownloaderDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6QmlAssetDownloader/Qt6QmlAssetDownloaderConfig.cmake:40 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlAssetDownloaderpluginDependencies.cmake:22 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlAssetDownloaderpluginConfig.cmake:52 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicPluginHelpers.cmake:638 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlPlugins.cmake:6 (__qt_internal_include_qml_plugin_packages)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake:195 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    name: "Qt6ExamplesAssetDownloaderPrivate"
+    configs:
+      -
+        filename: "Qt6ExamplesAssetDownloaderPrivateConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6examplesassetdownloaderprivate-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6ExamplesAssetDownloaderPrivate"
+      search_paths:
+        - "/opt/homebrew/lib/cmake/Qt6QmlAssetDownloader/.."
+        - "/opt/homebrew/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6ExamplesAssetDownloaderPrivateConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6examplesassetdownloaderprivate-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6ExamplesAssetDownloaderPrivateConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/qt6examplesassetdownloaderprivate-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/Qt6ExamplesAssetDownloaderPrivate/Qt6ExamplesAssetDownloaderPrivateConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
+        - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlAssetDownloaderpluginDependencies.cmake:22 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlAssetDownloaderpluginConfig.cmake:52 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicPluginHelpers.cmake:638 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlPlugins.cmake:6 (__qt_internal_include_qml_plugin_packages)"
+      - "/opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake:195 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    name: "Qt6QmlAssetDownloader"
+    configs:
+      -
+        filename: "Qt6QmlAssetDownloaderConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6qmlassetdownloader-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6QmlAssetDownloader"
+      search_paths:
+        - "/opt/homebrew/lib/cmake/Qt6Qml/QmlPlugins/../.."
+        - "/opt/homebrew/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6QmlAssetDownloaderConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6qmlassetdownloader-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlAssetDownloaderConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/qt6qmlassetdownloader-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlAssetDownloaderPrivate/Qt6QmlAssetDownloaderConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlAssetDownloaderPrivate/qt6qmlassetdownloader-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/Qt6QmlAssetDownloader/Qt6QmlAssetDownloaderConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
+        - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    name: "Qt6Qml"
+    configs:
+      -
+        filename: "Qt6QmlConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6qml-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6Qml"
+      search_paths:
+        - "/opt/homebrew/lib/cmake/Qt6Quick/.."
+        - "/opt/homebrew/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlImportScanner/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlImportScanner/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlNetwork/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlNetwork/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlLocalStorage/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlLocalStorage/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlXmlListModel/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlXmlListModel/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlWorkerScript/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlWorkerScript/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlWorkerScriptPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlWorkerScriptPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlAssetDownloaderPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlAssetDownloaderPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlCore/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlCore/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlAssetDownloader/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlAssetDownloader/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlToolingSettingsPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlToolingSettingsPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlDebugPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlDebugPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlModelsPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlModelsPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlDomPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlDomPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlMeta/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlMeta/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlTypeRegistrarPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlTypeRegistrarPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlCompiler/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlCompiler/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlXmlListModelPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlXmlListModelPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlNetworkPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlNetworkPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlIntegration/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlIntegration/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlCorePrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlCorePrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlMetaPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlMetaPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlPrivate/Qt6QmlConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlPrivate/qt6qml-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
+        - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    name: "Qt6QmlModels"
+    configs:
+      -
+        filename: "Qt6QmlModelsConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6qmlmodels-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6QmlModels"
+      search_paths:
+        - "/opt/homebrew/lib/cmake/Qt6Quick/.."
+        - "/opt/homebrew/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6QmlModelsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6qmlmodels-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlModelsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/qt6qmlmodels-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlModelsPrivate/Qt6QmlModelsConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlModelsPrivate/qt6qmlmodels-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/Qt6QmlModels/Qt6QmlModelsConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
+        - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6QmlMeta/Qt6QmlMetaDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6QmlMeta/Qt6QmlMetaConfig.cmake:40 (include)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    name: "Qt6QmlWorkerScript"
+    configs:
+      -
+        filename: "Qt6QmlWorkerScriptConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6qmlworkerscript-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6QmlWorkerScript"
+      search_paths:
+        - "/opt/homebrew/lib/cmake/Qt6QmlMeta/.."
+        - "/opt/homebrew/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6QmlWorkerScriptConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6qmlworkerscript-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlWorkerScriptConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/qt6qmlworkerscript-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/Qt6QmlWorkerScript/Qt6QmlWorkerScriptConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
+        - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    name: "Qt6QmlMeta"
+    configs:
+      -
+        filename: "Qt6QmlMetaConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6qmlmeta-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6QmlMeta"
+      search_paths:
+        - "/opt/homebrew/lib/cmake/Qt6Quick/.."
+        - "/opt/homebrew/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6QmlMetaConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6qmlmeta-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QmlMetaConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/qt6qmlmeta-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/Qt6QmlMeta/Qt6QmlMetaConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
+        - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
+        - "/opt/homebrew/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/opt/homebrew/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:142 (find_dependency)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:50 (_qt_internal_find_qt_dependencies)"
+      - "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:40 (include)"
+      - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    name: "Qt6OpenGL"
+    configs:
+      -
+        filename: "Qt6OpenGLConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "qt6opengl-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "6.10.1"
+      version_complete: "6.10.1"
+      exact: false
+    settings:
+      required: "optional"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Qt6OpenGL"
+      search_paths:
+        - "/opt/homebrew/lib/cmake/Qt6Quick/.."
+        - "/opt/homebrew/lib/cmake"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: false
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6OpenGLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6opengl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6OpenGLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/qt6opengl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6OpenGLPrivate/Qt6OpenGLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6OpenGLPrivate/qt6opengl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6OpenGLWidgets/qt6opengl-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/opt/homebrew/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake"
+      mode: "config"
+      version: "6.10.1"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
+        - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -3371,14 +5217,14 @@ events:
     kind: "find_package-v1"
     backtrace:
       - "/opt/homebrew/lib/cmake/Qt6/Qt6Config.cmake:237 (find_package)"
-      - "CMakeLists.txt:9 (find_package)"
-    name: "Qt6Widgets"
+      - "CMakeLists.txt:10 (find_package)"
+    name: "Qt6Quick"
     configs:
       -
-        filename: "Qt6WidgetsConfig.cmake"
+        filename: "Qt6QuickConfig.cmake"
         kind: "cmake"
       -
-        filename: "qt6widgets-config.cmake"
+        filename: "qt6quick-config.cmake"
         kind: "cmake"
     version_request:
       exact: false
@@ -3389,7 +5235,7 @@ events:
       policy_scope: true
       bypass_provider: false
       names:
-        - "Qt6Widgets"
+        - "Qt6Quick"
       search_paths:
         - "/opt/homebrew/lib/cmake"
       path_suffixes:
@@ -3406,45 +5252,238 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/Qt6QuickConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
+        path: "/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/pkgRedirects/qt6quick-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/opt/homebrew/lib/cmake/Qt6WidgetsConfig.cmake"
+        path: "/opt/homebrew/lib/cmake/Qt6QuickConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/opt/homebrew/lib/cmake/qt6widgets-config.cmake"
+        path: "/opt/homebrew/lib/cmake/qt6quick-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/opt/homebrew/lib/cmake/Qt6WidgetsPrivate/Qt6WidgetsConfig.cmake"
+        path: "/opt/homebrew/lib/cmake/Qt6QuickTimelinePrivate/Qt6QuickConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/opt/homebrew/lib/cmake/Qt6WidgetsPrivate/qt6widgets-config.cmake"
+        path: "/opt/homebrew/lib/cmake/Qt6QuickTimelinePrivate/qt6quick-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/opt/homebrew/lib/cmake/Qt6WidgetsTools/Qt6WidgetsConfig.cmake"
+        path: "/opt/homebrew/lib/cmake/Qt6Quick3DXrPrivate/Qt6QuickConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "/opt/homebrew/lib/cmake/Qt6WidgetsTools/qt6widgets-config.cmake"
+        path: "/opt/homebrew/lib/cmake/Qt6Quick3DXrPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickVectorImageGeneratorPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickVectorImageGeneratorPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6Quick3DIblBaker/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6Quick3DIblBaker/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickControls2BasicStyleImpl/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickControls2BasicStyleImpl/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickTimelineBlendTreesPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickTimelineBlendTreesPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickControls2FusionStyleImpl/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickControls2FusionStyleImpl/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickControls2FusionStyleImplPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickControls2FusionStyleImplPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickControls2Universal/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickControls2Universal/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickControls2Fusion/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickControls2Fusion/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickDialogs2QuickImpl/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickDialogs2QuickImpl/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickControls2Imagine/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickControls2Imagine/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6Quick3DSpatialAudioPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6Quick3DSpatialAudioPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6Quick3DXr/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6Quick3DXr/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickShapesPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickShapesPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickLayoutsPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickLayoutsPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickControls2BasicStyleImplPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickControls2BasicStyleImplPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6Quick3DUtils/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6Quick3DUtils/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickEffectsPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickEffectsPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickTimelineBlendTrees/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickTimelineBlendTrees/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6Quick3DAssetUtilsPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6Quick3DAssetUtilsPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickControls2UniversalPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickControls2UniversalPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6Quick3DTools/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6Quick3DTools/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickTimeline/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickTimeline/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickDialogs2UtilsPrivate/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6QuickDialogs2UtilsPrivate/qt6quick-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6Quick3DAssetUtils/Qt6QuickConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/homebrew/lib/cmake/Qt6Quick3DAssetUtils/qt6quick-config.cmake"
         mode: "config"
         reason: "no_exist"
     found:
-      path: "/opt/homebrew/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake"
+      path: "/opt/homebrew/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
       mode: "config"
       version: "6.10.1"
     search_context:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
@@ -3486,11 +5525,11 @@ events:
   -
     kind: "find_package-v1"
     backtrace:
-      - "CMakeLists.txt:9 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
     name: "Qt6"
     components:
       -
-        name: "Widgets"
+        name: "Quick"
         required: true
         found: false
     configs:
@@ -3537,6 +5576,14 @@ events:
         reason: "no_exist"
       -
         path: "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/qt6-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/.local/Qt6Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Users/patrickseweryn/.local/qt6-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4611,6 +6658,7 @@ events:
       ENV{PATH}:
         - "/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/bin"
         - "~/VulkanSDK/current/macOS/bin"
+        - "/Users/patrickseweryn/.local/bin"
         - "/opt/homebrew/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.13/bin"
         - "/Library/Frameworks/Python.framework/Versions/3.12/bin"

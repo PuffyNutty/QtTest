@@ -67,24 +67,24 @@ include CMakeFiles/QtTest_qmltyperegistration.dir/compiler_depend.make
 include CMakeFiles/QtTest_qmltyperegistration.dir/progress.make
 
 CMakeFiles/QtTest_qmltyperegistration: qttest_qmltyperegistrations.cpp
-CMakeFiles/QtTest_qmltyperegistration: QtTest.qmltypes
+CMakeFiles/QtTest_qmltyperegistration: MyModule/QtTest.qmltypes
 
 qttest_qmltyperegistrations.cpp: qmltypes/QtTest_foreign_types.txt
 qttest_qmltyperegistrations.cpp: meta_types/qt6qttest_metatypes.json
 qttest_qmltyperegistrations.cpp: /opt/homebrew/share/qt/libexec/qmltyperegistrar
-qttest_qmltyperegistrations.cpp: /opt/homebrew/share/qt/metatypes/qt6qml_metatypes.json
 qttest_qmltyperegistrations.cpp: /opt/homebrew/share/qt/metatypes/qt6core_metatypes.json
+qttest_qmltyperegistrations.cpp: /opt/homebrew/share/qt/metatypes/qt6qml_metatypes.json
 qttest_qmltyperegistrations.cpp: /opt/homebrew/share/qt/metatypes/qt6network_metatypes.json
 qttest_qmltyperegistrations.cpp: /opt/homebrew/share/qt/metatypes/qt6quick_metatypes.json
 qttest_qmltyperegistrations.cpp: /opt/homebrew/share/qt/metatypes/qt6gui_metatypes.json
 qttest_qmltyperegistrations.cpp: /opt/homebrew/share/qt/metatypes/qt6opengl_metatypes.json
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic QML type registration for target QtTest"
-	/opt/homebrew/share/qt/libexec/qmltyperegistrar --generate-qmltypes=/Users/patrickseweryn/Developer/Projects/qtTest/build/QtTest.qmltypes --import-name=hello --major-version=254 --minor-version=254 @/Users/patrickseweryn/Developer/Projects/qtTest/build/qmltypes/QtTest_foreign_types.txt -o /Users/patrickseweryn/Developer/Projects/qtTest/build/qttest_qmltyperegistrations.cpp /Users/patrickseweryn/Developer/Projects/qtTest/build/meta_types/qt6qttest_metatypes.json
+	/opt/homebrew/share/qt/libexec/qmltyperegistrar --generate-qmltypes=/Users/patrickseweryn/Developer/Projects/qtTest/build/MyModule/QtTest.qmltypes --import-name=MyModule --major-version=1 --minor-version=0 @/Users/patrickseweryn/Developer/Projects/qtTest/build/qmltypes/QtTest_foreign_types.txt -o /Users/patrickseweryn/Developer/Projects/qtTest/build/qttest_qmltyperegistrations.cpp /Users/patrickseweryn/Developer/Projects/qtTest/build/meta_types/qt6qttest_metatypes.json
 	/opt/homebrew/bin/cmake -E make_directory /Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/qmltypes
 	/opt/homebrew/bin/cmake -E touch /Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/qmltypes/QtTest.qmltypes
 
-QtTest.qmltypes: qttest_qmltyperegistrations.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate QtTest.qmltypes
+MyModule/QtTest.qmltypes: qttest_qmltyperegistrations.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate MyModule/QtTest.qmltypes
 
 meta_types/qt6qttest_metatypes.json: meta_types/qt6qttest_metatypes.json.gen
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating meta_types/qt6qttest_metatypes.json"
@@ -111,7 +111,7 @@ CMakeFiles/QtTest_qmltyperegistration.dir/codegen:
 .PHONY : CMakeFiles/QtTest_qmltyperegistration.dir/codegen
 
 QtTest_qmltyperegistration: CMakeFiles/QtTest_qmltyperegistration
-QtTest_qmltyperegistration: QtTest.qmltypes
+QtTest_qmltyperegistration: MyModule/QtTest.qmltypes
 QtTest_qmltyperegistration: QtTest_autogen/timestamp
 QtTest_qmltyperegistration: meta_types/QtTest_json_file_list.txt
 QtTest_qmltyperegistration: meta_types/qt6qttest_metatypes.json

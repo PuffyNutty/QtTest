@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  ".rcc/qmlcache/QtTest_qml/Cell_qml.cpp"
-  ".rcc/qmlcache/QtTest_qml/Cell_qml.cpp.aotstats"
-  ".rcc/qmlcache/QtTest_qml/Main_qml.cpp"
-  ".rcc/qmlcache/QtTest_qml/Main_qml.cpp.aotstats"
+  ".rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp"
+  ".rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.aotstats"
   ".rcc/qmlcache/module_QtTest.aotstats"
   "CMakeFiles/module_QtTest_aotstats_target"
 )

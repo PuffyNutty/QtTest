@@ -130,6 +130,188 @@ QtTest/fast:
 .PHONY : QtTest/fast
 
 #=============================================================================
+# Target rules for targets named QtTest_qmltyperegistration
+
+# Build rule for target.
+QtTest_qmltyperegistration: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QtTest_qmltyperegistration
+.PHONY : QtTest_qmltyperegistration
+
+# fast build rule for target.
+QtTest_qmltyperegistration/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest_qmltyperegistration.dir/build.make CMakeFiles/QtTest_qmltyperegistration.dir/build
+.PHONY : QtTest_qmltyperegistration/fast
+
+#=============================================================================
+# Target rules for targets named all_qmltyperegistrations
+
+# Build rule for target.
+all_qmltyperegistrations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_qmltyperegistrations
+.PHONY : all_qmltyperegistrations
+
+# fast build rule for target.
+all_qmltyperegistrations/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmltyperegistrations.dir/build.make CMakeFiles/all_qmltyperegistrations.dir/build
+.PHONY : all_qmltyperegistrations/fast
+
+#=============================================================================
+# Target rules for targets named QtTest_qmllint
+
+# Build rule for target.
+QtTest_qmllint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QtTest_qmllint
+.PHONY : QtTest_qmllint
+
+# fast build rule for target.
+QtTest_qmllint/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest_qmllint.dir/build.make CMakeFiles/QtTest_qmllint.dir/build
+.PHONY : QtTest_qmllint/fast
+
+#=============================================================================
+# Target rules for targets named QtTest_qmllint_json
+
+# Build rule for target.
+QtTest_qmllint_json: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QtTest_qmllint_json
+.PHONY : QtTest_qmllint_json
+
+# fast build rule for target.
+QtTest_qmllint_json/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest_qmllint_json.dir/build.make CMakeFiles/QtTest_qmllint_json.dir/build
+.PHONY : QtTest_qmllint_json/fast
+
+#=============================================================================
+# Target rules for targets named QtTest_qmllint_module
+
+# Build rule for target.
+QtTest_qmllint_module: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QtTest_qmllint_module
+.PHONY : QtTest_qmllint_module
+
+# fast build rule for target.
+QtTest_qmllint_module/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest_qmllint_module.dir/build.make CMakeFiles/QtTest_qmllint_module.dir/build
+.PHONY : QtTest_qmllint_module/fast
+
+#=============================================================================
+# Target rules for targets named all_qmllint
+
+# Build rule for target.
+all_qmllint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_qmllint
+.PHONY : all_qmllint
+
+# fast build rule for target.
+all_qmllint/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmllint.dir/build.make CMakeFiles/all_qmllint.dir/build
+.PHONY : all_qmllint/fast
+
+#=============================================================================
+# Target rules for targets named all_qmllint_json
+
+# Build rule for target.
+all_qmllint_json: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_qmllint_json
+.PHONY : all_qmllint_json
+
+# fast build rule for target.
+all_qmllint_json/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmllint_json.dir/build.make CMakeFiles/all_qmllint_json.dir/build
+.PHONY : all_qmllint_json/fast
+
+#=============================================================================
+# Target rules for targets named all_qmllint_module
+
+# Build rule for target.
+all_qmllint_module: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_qmllint_module
+.PHONY : all_qmllint_module
+
+# fast build rule for target.
+all_qmllint_module/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmllint_module.dir/build.make CMakeFiles/all_qmllint_module.dir/build
+.PHONY : all_qmllint_module/fast
+
+#=============================================================================
+# Target rules for targets named QtTest_copy_qml
+
+# Build rule for target.
+QtTest_copy_qml: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QtTest_copy_qml
+.PHONY : QtTest_copy_qml
+
+# fast build rule for target.
+QtTest_copy_qml/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest_copy_qml.dir/build.make CMakeFiles/QtTest_copy_qml.dir/build
+.PHONY : QtTest_copy_qml/fast
+
+#=============================================================================
+# Target rules for targets named QtTest_copy_res
+
+# Build rule for target.
+QtTest_copy_res: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QtTest_copy_res
+.PHONY : QtTest_copy_res
+
+# fast build rule for target.
+QtTest_copy_res/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest_copy_res.dir/build.make CMakeFiles/QtTest_copy_res.dir/build
+.PHONY : QtTest_copy_res/fast
+
+#=============================================================================
+# Target rules for targets named generate_qmlls_build_ini_file
+
+# Build rule for target.
+generate_qmlls_build_ini_file: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 generate_qmlls_build_ini_file
+.PHONY : generate_qmlls_build_ini_file
+
+# fast build rule for target.
+generate_qmlls_build_ini_file/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_qmlls_build_ini_file.dir/build.make CMakeFiles/generate_qmlls_build_ini_file.dir/build
+.PHONY : generate_qmlls_build_ini_file/fast
+
+#=============================================================================
+# Target rules for targets named module_QtTest_aotstats_target
+
+# Build rule for target.
+module_QtTest_aotstats_target: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 module_QtTest_aotstats_target
+.PHONY : module_QtTest_aotstats_target
+
+# fast build rule for target.
+module_QtTest_aotstats_target/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/module_QtTest_aotstats_target.dir/build.make CMakeFiles/module_QtTest_aotstats_target.dir/build
+.PHONY : module_QtTest_aotstats_target/fast
+
+#=============================================================================
+# Target rules for targets named all_aotstats
+
+# Build rule for target.
+all_aotstats: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_aotstats
+.PHONY : all_aotstats
+
+# fast build rule for target.
+all_aotstats/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_aotstats.dir/build.make CMakeFiles/all_aotstats.dir/build
+.PHONY : all_aotstats/fast
+
+#=============================================================================
+# Target rules for targets named QtTest_qmlimportscan
+
+# Build rule for target.
+QtTest_qmlimportscan: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QtTest_qmlimportscan
+.PHONY : QtTest_qmlimportscan
+
+# fast build rule for target.
+QtTest_qmlimportscan/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest_qmlimportscan.dir/build.make CMakeFiles/QtTest_qmlimportscan.dir/build
+.PHONY : QtTest_qmlimportscan/fast
+
+#=============================================================================
 # Target rules for targets named QtTest_autogen_timestamp_deps
 
 # Build rule for target.
@@ -179,29 +361,149 @@ QtTest_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/QtTest_autogen/mocs_compilation.cpp.s
 .PHONY : QtTest_autogen/mocs_compilation.cpp.s
 
-src/pfy/Window.o: src/pfy/Window.cpp.o
-.PHONY : src/pfy/Window.o
+build/.qt/rcc/qrc_QtTest_raw_qml_0.o: build/.qt/rcc/qrc_QtTest_raw_qml_0.cpp.o
+.PHONY : build/.qt/rcc/qrc_QtTest_raw_qml_0.o
 
 # target to build an object file
-src/pfy/Window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/src/pfy/Window.cpp.o
-.PHONY : src/pfy/Window.cpp.o
+build/.qt/rcc/qrc_QtTest_raw_qml_0.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/build/.qt/rcc/qrc_QtTest_raw_qml_0.cpp.o
+.PHONY : build/.qt/rcc/qrc_QtTest_raw_qml_0.cpp.o
 
-src/pfy/Window.i: src/pfy/Window.cpp.i
-.PHONY : src/pfy/Window.i
+build/.qt/rcc/qrc_QtTest_raw_qml_0.i: build/.qt/rcc/qrc_QtTest_raw_qml_0.cpp.i
+.PHONY : build/.qt/rcc/qrc_QtTest_raw_qml_0.i
 
 # target to preprocess a source file
-src/pfy/Window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/src/pfy/Window.cpp.i
-.PHONY : src/pfy/Window.cpp.i
+build/.qt/rcc/qrc_QtTest_raw_qml_0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/build/.qt/rcc/qrc_QtTest_raw_qml_0.cpp.i
+.PHONY : build/.qt/rcc/qrc_QtTest_raw_qml_0.cpp.i
 
-src/pfy/Window.s: src/pfy/Window.cpp.s
-.PHONY : src/pfy/Window.s
+build/.qt/rcc/qrc_QtTest_raw_qml_0.s: build/.qt/rcc/qrc_QtTest_raw_qml_0.cpp.s
+.PHONY : build/.qt/rcc/qrc_QtTest_raw_qml_0.s
 
 # target to generate assembly for a file
-src/pfy/Window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/src/pfy/Window.cpp.s
-.PHONY : src/pfy/Window.cpp.s
+build/.qt/rcc/qrc_QtTest_raw_qml_0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/build/.qt/rcc/qrc_QtTest_raw_qml_0.cpp.s
+.PHONY : build/.qt/rcc/qrc_QtTest_raw_qml_0.cpp.s
+
+build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.o: build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.cpp.o
+.PHONY : build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.o
+
+# target to build an object file
+build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.cpp.o
+.PHONY : build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.cpp.o
+
+build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.i: build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.cpp.i
+.PHONY : build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.i
+
+# target to preprocess a source file
+build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.cpp.i
+.PHONY : build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.cpp.i
+
+build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.s: build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.cpp.s
+.PHONY : build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.s
+
+# target to generate assembly for a file
+build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.cpp.s
+.PHONY : build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.cpp.s
+
+build/.qt/rcc/qrc_qmake_MyModule.o: build/.qt/rcc/qrc_qmake_MyModule.cpp.o
+.PHONY : build/.qt/rcc/qrc_qmake_MyModule.o
+
+# target to build an object file
+build/.qt/rcc/qrc_qmake_MyModule.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/build/.qt/rcc/qrc_qmake_MyModule.cpp.o
+.PHONY : build/.qt/rcc/qrc_qmake_MyModule.cpp.o
+
+build/.qt/rcc/qrc_qmake_MyModule.i: build/.qt/rcc/qrc_qmake_MyModule.cpp.i
+.PHONY : build/.qt/rcc/qrc_qmake_MyModule.i
+
+# target to preprocess a source file
+build/.qt/rcc/qrc_qmake_MyModule.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/build/.qt/rcc/qrc_qmake_MyModule.cpp.i
+.PHONY : build/.qt/rcc/qrc_qmake_MyModule.cpp.i
+
+build/.qt/rcc/qrc_qmake_MyModule.s: build/.qt/rcc/qrc_qmake_MyModule.cpp.s
+.PHONY : build/.qt/rcc/qrc_qmake_MyModule.s
+
+# target to generate assembly for a file
+build/.qt/rcc/qrc_qmake_MyModule.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/build/.qt/rcc/qrc_qmake_MyModule.cpp.s
+.PHONY : build/.qt/rcc/qrc_qmake_MyModule.cpp.s
+
+build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.o: build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.o
+
+build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.i: build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.i
+
+build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.s: build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.s
+
+build/.rcc/qmlcache/QtTest_qmlcache_loader.o: build/.rcc/qmlcache/QtTest_qmlcache_loader.cpp.o
+.PHONY : build/.rcc/qmlcache/QtTest_qmlcache_loader.o
+
+# target to build an object file
+build/.rcc/qmlcache/QtTest_qmlcache_loader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/build/.rcc/qmlcache/QtTest_qmlcache_loader.cpp.o
+.PHONY : build/.rcc/qmlcache/QtTest_qmlcache_loader.cpp.o
+
+build/.rcc/qmlcache/QtTest_qmlcache_loader.i: build/.rcc/qmlcache/QtTest_qmlcache_loader.cpp.i
+.PHONY : build/.rcc/qmlcache/QtTest_qmlcache_loader.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/QtTest_qmlcache_loader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/build/.rcc/qmlcache/QtTest_qmlcache_loader.cpp.i
+.PHONY : build/.rcc/qmlcache/QtTest_qmlcache_loader.cpp.i
+
+build/.rcc/qmlcache/QtTest_qmlcache_loader.s: build/.rcc/qmlcache/QtTest_qmlcache_loader.cpp.s
+.PHONY : build/.rcc/qmlcache/QtTest_qmlcache_loader.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/QtTest_qmlcache_loader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/build/.rcc/qmlcache/QtTest_qmlcache_loader.cpp.s
+.PHONY : build/.rcc/qmlcache/QtTest_qmlcache_loader.cpp.s
+
+qttest_qmltyperegistrations.o: qttest_qmltyperegistrations.cpp.o
+.PHONY : qttest_qmltyperegistrations.o
+
+# target to build an object file
+qttest_qmltyperegistrations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/qttest_qmltyperegistrations.cpp.o
+.PHONY : qttest_qmltyperegistrations.cpp.o
+
+qttest_qmltyperegistrations.i: qttest_qmltyperegistrations.cpp.i
+.PHONY : qttest_qmltyperegistrations.i
+
+# target to preprocess a source file
+qttest_qmltyperegistrations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/qttest_qmltyperegistrations.cpp.i
+.PHONY : qttest_qmltyperegistrations.cpp.i
+
+qttest_qmltyperegistrations.s: qttest_qmltyperegistrations.cpp.s
+.PHONY : qttest_qmltyperegistrations.s
+
+# target to generate assembly for a file
+qttest_qmltyperegistrations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QtTest.dir/build.make CMakeFiles/QtTest.dir/qttest_qmltyperegistrations.cpp.s
+.PHONY : qttest_qmltyperegistrations.cpp.s
 
 src/pfy/main.o: src/pfy/main.cpp.o
 .PHONY : src/pfy/main.o
@@ -237,13 +539,42 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... QtTest_autogen"
 	@echo "... QtTest_autogen_timestamp_deps"
+	@echo "... QtTest_copy_qml"
+	@echo "... QtTest_copy_res"
+	@echo "... QtTest_qmlimportscan"
+	@echo "... QtTest_qmllint"
+	@echo "... QtTest_qmllint_json"
+	@echo "... QtTest_qmllint_module"
+	@echo "... QtTest_qmltyperegistration"
+	@echo "... all_aotstats"
+	@echo "... all_qmllint"
+	@echo "... all_qmllint_json"
+	@echo "... all_qmllint_module"
+	@echo "... all_qmltyperegistrations"
+	@echo "... generate_qmlls_build_ini_file"
+	@echo "... module_QtTest_aotstats_target"
 	@echo "... QtTest"
 	@echo "... QtTest_autogen/mocs_compilation.o"
 	@echo "... QtTest_autogen/mocs_compilation.i"
 	@echo "... QtTest_autogen/mocs_compilation.s"
-	@echo "... src/pfy/Window.o"
-	@echo "... src/pfy/Window.i"
-	@echo "... src/pfy/Window.s"
+	@echo "... build/.qt/rcc/qrc_QtTest_raw_qml_0.o"
+	@echo "... build/.qt/rcc/qrc_QtTest_raw_qml_0.i"
+	@echo "... build/.qt/rcc/qrc_QtTest_raw_qml_0.s"
+	@echo "... build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.o"
+	@echo "... build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.i"
+	@echo "... build/.qt/rcc/qrc_QtTest_raw_qml_0_extra_qmldirs.s"
+	@echo "... build/.qt/rcc/qrc_qmake_MyModule.o"
+	@echo "... build/.qt/rcc/qrc_qmake_MyModule.i"
+	@echo "... build/.qt/rcc/qrc_qmake_MyModule.s"
+	@echo "... build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.o"
+	@echo "... build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.i"
+	@echo "... build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.s"
+	@echo "... build/.rcc/qmlcache/QtTest_qmlcache_loader.o"
+	@echo "... build/.rcc/qmlcache/QtTest_qmlcache_loader.i"
+	@echo "... build/.rcc/qmlcache/QtTest_qmlcache_loader.s"
+	@echo "... qttest_qmltyperegistrations.o"
+	@echo "... qttest_qmltyperegistrations.i"
+	@echo "... qttest_qmltyperegistrations.s"
 	@echo "... src/pfy/main.o"
 	@echo "... src/pfy/main.i"
 	@echo "... src/pfy/main.s"

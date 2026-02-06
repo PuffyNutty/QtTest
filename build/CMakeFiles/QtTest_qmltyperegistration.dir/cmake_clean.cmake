@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/QtTest_qmltyperegistration"
-  "QtTest.qmltypes"
+  "MyModule/QtTest.qmltypes"
   "QtTest_autogen/mocs_compilation.cpp"
   "QtTest_autogen/timestamp"
   "meta_types/QtTest_json_file_list.txt"

@@ -1,6 +1,7 @@
 --resource
-/Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/qmake_hello.qrc
+/Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/qmake_MyModule.qrc
 --resource
 /Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/QtTest_raw_qml_0.qrc
-/qt/qml/hello/qml/Main.qml
-/qt/qml/hello/qml/Cell.qml
+--resource
+/Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/QtTest_raw_qml_0_extra_qmldirs.qrc
+/qt/qml/MyModule/qml/pfy/Main.qml

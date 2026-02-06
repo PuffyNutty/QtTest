@@ -69,8 +69,7 @@ include CMakeFiles/QtTest_copy_qml.dir/progress.make
 CMakeFiles/QtTest_copy_qml: .qt/QtTest_qml.txt
 
 .qt/QtTest_qml.txt: /opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
-.qt/QtTest_qml.txt: /Users/patrickseweryn/Developer/Projects/qtTest/qml/Main.qml
-.qt/QtTest_qml.txt: /Users/patrickseweryn/Developer/Projects/qtTest/qml/Cell.qml
+.qt/QtTest_qml.txt: /Users/patrickseweryn/Developer/Projects/qtTest/qml/pfy/Main.qml
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying QtTest qml sources into build dir"
 	/opt/homebrew/bin/cmake -DFILES_INFO_PATH=/Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/QtTest_qml.cmake -P /opt/homebrew/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
 

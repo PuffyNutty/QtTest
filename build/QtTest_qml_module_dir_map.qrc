@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/hello">/Users/patrickseweryn/Developer/Projects/qtTest/build</file>
-
-  </qresource>
-</RCC>

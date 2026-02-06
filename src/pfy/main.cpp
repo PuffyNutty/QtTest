@@ -1,13 +1,20 @@
-#include <QApplication>
-
-#include "pfy/Window.hpp"
-
+#include <QGuiApplication>
+#include <QQmlApplicationEngine>
+#include <cstdlib>
+#include <iostream>
 
 int main(int argc, char* argv[])
 {
-    QApplication app(argc, argv);
+    QGuiApplication app(argc, argv);
 
-    Window window("Qt Test", 500, 500);
+    QQmlApplicationEngine engine;
+    engine.loadFromModule("MyModule", "Main");
+
+    if (engine.rootObjects().isEmpty()) {
+        return EXIT_FAILURE;
+    }
+
+    std::cout << "Hello World\n";
 
     return app.exec();
 }

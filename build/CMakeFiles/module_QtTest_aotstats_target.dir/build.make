@@ -68,45 +68,30 @@ include CMakeFiles/module_QtTest_aotstats_target.dir/progress.make
 
 CMakeFiles/module_QtTest_aotstats_target: .rcc/qmlcache/module_QtTest.aotstats
 
-.rcc/qmlcache/module_QtTest.aotstats: .rcc/qmlcache/QtTest_qml/Main_qml.cpp.aotstats
-.rcc/qmlcache/module_QtTest.aotstats: .rcc/qmlcache/QtTest_qml/Cell_qml.cpp.aotstats
+.rcc/qmlcache/module_QtTest.aotstats: .rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.aotstats
 .rcc/qmlcache/module_QtTest.aotstats: .rcc/qmlcache/module_QtTest.aotstatslist
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating .rcc/qmlcache/module_QtTest.aotstats"
 	/opt/homebrew/share/qt/libexec/qmlaotstats aggregate /Users/patrickseweryn/Developer/Projects/qtTest/build/.rcc/qmlcache/module_QtTest.aotstatslist /Users/patrickseweryn/Developer/Projects/qtTest/build/.rcc/qmlcache/module_QtTest.aotstats
 
-.rcc/qmlcache/QtTest_qml/Cell_qml.cpp: /opt/homebrew/share/qt/libexec/qmlcachegen
-.rcc/qmlcache/QtTest_qml/Cell_qml.cpp: /Users/patrickseweryn/Developer/Projects/qtTest/qml/Cell.qml
-.rcc/qmlcache/QtTest_qml/Cell_qml.cpp: .qt/rcc/qmake_hello.qrc
-.rcc/qmlcache/QtTest_qml/Cell_qml.cpp: .qt/rcc/QtTest_raw_qml_0.qrc
-.rcc/qmlcache/QtTest_qml/Cell_qml.cpp: QtTest.qmltypes
-.rcc/qmlcache/QtTest_qml/Cell_qml.cpp: qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating .rcc/qmlcache/QtTest_qml/Cell_qml.cpp, .rcc/qmlcache/QtTest_qml/Cell_qml.cpp.aotstats"
-	/opt/homebrew/bin/cmake -E make_directory /Users/patrickseweryn/Developer/Projects/qtTest/build/.rcc/qmlcache/QtTest_qml
-	/opt/homebrew/share/qt/libexec/qmlcachegen --bare --resource-path /qt/qml/hello/qml/Cell.qml -I /opt/homebrew/share/qt/qml -i /Users/patrickseweryn/Developer/Projects/qtTest/build/qmldir --resource /Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/qmake_hello.qrc --resource /Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/QtTest_raw_qml_0.qrc --dump-aot-stats "--module-id=hello(QtTest)" -o /Users/patrickseweryn/Developer/Projects/qtTest/build/.rcc/qmlcache/QtTest_qml/Cell_qml.cpp /Users/patrickseweryn/Developer/Projects/qtTest/qml/Cell.qml
+.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp: /opt/homebrew/share/qt/libexec/qmlcachegen
+.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp: /Users/patrickseweryn/Developer/Projects/qtTest/qml/pfy/Main.qml
+.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp: .qt/rcc/qmake_MyModule.qrc
+.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp: .qt/rcc/QtTest_raw_qml_0.qrc
+.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp: .qt/rcc/QtTest_raw_qml_0_extra_qmldirs.qrc
+.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp: MyModule/QtTest.qmltypes
+.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp: MyModule/qmldir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating .rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp, .rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.aotstats"
+	/opt/homebrew/bin/cmake -E make_directory /Users/patrickseweryn/Developer/Projects/qtTest/build/.rcc/qmlcache/QtTest_qml/pfy
+	/opt/homebrew/share/qt/libexec/qmlcachegen --bare --resource-path /qt/qml/MyModule/qml/pfy/Main.qml -I /Users/patrickseweryn/Developer/Projects/qtTest/build -I /opt/homebrew/share/qt/qml -i /Users/patrickseweryn/Developer/Projects/qtTest/build/MyModule/qmldir --resource /Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/qmake_MyModule.qrc --resource /Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/QtTest_raw_qml_0.qrc --resource /Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/QtTest_raw_qml_0_extra_qmldirs.qrc --dump-aot-stats "--module-id=MyModule(QtTest)" -o /Users/patrickseweryn/Developer/Projects/qtTest/build/.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp /Users/patrickseweryn/Developer/Projects/qtTest/qml/pfy/Main.qml
 
-.rcc/qmlcache/QtTest_qml/Cell_qml.cpp.aotstats: .rcc/qmlcache/QtTest_qml/Cell_qml.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/QtTest_qml/Cell_qml.cpp.aotstats
-
-.rcc/qmlcache/QtTest_qml/Main_qml.cpp: /opt/homebrew/share/qt/libexec/qmlcachegen
-.rcc/qmlcache/QtTest_qml/Main_qml.cpp: /Users/patrickseweryn/Developer/Projects/qtTest/qml/Main.qml
-.rcc/qmlcache/QtTest_qml/Main_qml.cpp: .qt/rcc/qmake_hello.qrc
-.rcc/qmlcache/QtTest_qml/Main_qml.cpp: .qt/rcc/QtTest_raw_qml_0.qrc
-.rcc/qmlcache/QtTest_qml/Main_qml.cpp: QtTest.qmltypes
-.rcc/qmlcache/QtTest_qml/Main_qml.cpp: qmldir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating .rcc/qmlcache/QtTest_qml/Main_qml.cpp, .rcc/qmlcache/QtTest_qml/Main_qml.cpp.aotstats"
-	/opt/homebrew/bin/cmake -E make_directory /Users/patrickseweryn/Developer/Projects/qtTest/build/.rcc/qmlcache/QtTest_qml
-	/opt/homebrew/share/qt/libexec/qmlcachegen --bare --resource-path /qt/qml/hello/qml/Main.qml -I /opt/homebrew/share/qt/qml -i /Users/patrickseweryn/Developer/Projects/qtTest/build/qmldir --resource /Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/qmake_hello.qrc --resource /Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/QtTest_raw_qml_0.qrc --dump-aot-stats "--module-id=hello(QtTest)" -o /Users/patrickseweryn/Developer/Projects/qtTest/build/.rcc/qmlcache/QtTest_qml/Main_qml.cpp /Users/patrickseweryn/Developer/Projects/qtTest/qml/Main.qml
-
-.rcc/qmlcache/QtTest_qml/Main_qml.cpp.aotstats: .rcc/qmlcache/QtTest_qml/Main_qml.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/QtTest_qml/Main_qml.cpp.aotstats
+.rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.aotstats: .rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate .rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.aotstats
 
 CMakeFiles/module_QtTest_aotstats_target.dir/codegen:
 .PHONY : CMakeFiles/module_QtTest_aotstats_target.dir/codegen
 
-module_QtTest_aotstats_target: .rcc/qmlcache/QtTest_qml/Cell_qml.cpp
-module_QtTest_aotstats_target: .rcc/qmlcache/QtTest_qml/Cell_qml.cpp.aotstats
-module_QtTest_aotstats_target: .rcc/qmlcache/QtTest_qml/Main_qml.cpp
-module_QtTest_aotstats_target: .rcc/qmlcache/QtTest_qml/Main_qml.cpp.aotstats
+module_QtTest_aotstats_target: .rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp
+module_QtTest_aotstats_target: .rcc/qmlcache/QtTest_qml/pfy/Main_qml.cpp.aotstats
 module_QtTest_aotstats_target: .rcc/qmlcache/module_QtTest.aotstats
 module_QtTest_aotstats_target: CMakeFiles/module_QtTest_aotstats_target
 module_QtTest_aotstats_target: CMakeFiles/module_QtTest_aotstats_target.dir/build.make

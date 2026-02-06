@@ -69,7 +69,6 @@ include CMakeFiles/QtTest_autogen.dir/progress.make
 CMakeFiles/QtTest_autogen: QtTest_autogen/timestamp
 
 QtTest_autogen/timestamp: /opt/homebrew/share/qt/libexec/moc
-QtTest_autogen/timestamp: /opt/homebrew/share/qt/libexec/uic
 QtTest_autogen/timestamp: CMakeFiles/QtTest_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target QtTest"
 	/opt/homebrew/bin/cmake -E cmake_autogen /Users/patrickseweryn/Developer/Projects/qtTest/build/CMakeFiles/QtTest_autogen.dir/AutogenInfo.json ""

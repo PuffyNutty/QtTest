@@ -14,12 +14,11 @@
 #else
 #define Q_QMLTYPE_EXPORT
 #endif
-Q_QMLTYPE_EXPORT void qml_register_types_hello()
+Q_QMLTYPE_EXPORT void qml_register_types_MyModule()
 {
-    qmlRegisterModule("hello", 254, 0);
     QT_WARNING_PUSH QT_WARNING_DISABLE_DEPRECATED
     QT_WARNING_POP
-    qmlRegisterModule("hello", 254, 254);
+    qmlRegisterModule("MyModule", 1, 0);
 }
 
-static const QQmlModuleRegistration helloRegistration("hello", qml_register_types_hello);
+static const QQmlModuleRegistration myModuleRegistration("MyModule", qml_register_types_MyModule);

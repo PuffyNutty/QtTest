@@ -1,8 +1,12 @@
 -I
+/Users/patrickseweryn/Developer/Projects/qtTest/build
+-I
 /opt/homebrew/share/qt/qml
 --resource
-/Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/qmake_hello.qrc
+/Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/qmake_MyModule.qrc
 --resource
 /Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/QtTest_raw_qml_0.qrc
+--resource
+/Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/QtTest_raw_qml_0_extra_qmldirs.qrc
 --module
-hello
+MyModule

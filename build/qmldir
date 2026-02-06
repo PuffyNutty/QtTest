@@ -1,0 +1,10 @@
+module hello
+linktarget QtTestplugin
+optional plugin QtTestplugin
+classname helloPlugin
+typeinfo QtTest.qmltypes
+prefer :/qt/qml/hello/
+Main 254.0 qml/Main.qml
+Cell 254.0 qml/Cell.qml
+depends QtQuick
+

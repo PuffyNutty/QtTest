@@ -1,0 +1,8 @@
+-I
+/opt/homebrew/share/qt/qml
+--resource
+/Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/qmake_hello.qrc
+--resource
+/Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/QtTest_raw_qml_0.qrc
+--module
+hello

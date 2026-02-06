@@ -1,0 +1,6 @@
+--resource
+/Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/qmake_hello.qrc
+--resource
+/Users/patrickseweryn/Developer/Projects/qtTest/build/.qt/rcc/QtTest_raw_qml_0.qrc
+/qt/qml/hello/qml/Main.qml
+/qt/qml/hello/qml/Cell.qml

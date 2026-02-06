@@ -1,4 +1,3 @@
-var blockSize = 40;
 var maxColumn = 10;
 var maxRow = 15;
 var maxIndex = maxColumn * maxRow;
@@ -29,16 +28,16 @@ function createBlock(column, row)
     }
 
     if (component.status == Component.Ready) {
-        var dynamicObject = component.createObject(background);
+        var dynamicObject = component.createObject(gameCanvas);
         if (dynamicObject == null) {
             console.log("Error when creating block");
             console.log(component.errorString());
             return false;
         }
-        dynamicObject.x = column * blockSize;
-        dynamicObject.y = row * blockSize;
-        dynamicObject.width = blockSize;
-        dynamicObject.height = blockSize;
+        dynamicObject.x = column * gameCanvas.blockSize;
+        dynamicObject.y = row * gameCanvas.blockSize;
+        dynamicObject.width = gameCanvas.blockSize;
+        dynamicObject.height = gameCanvas.blockSize;
         board[index(column, row)] = dynamicObject;
     } else {
         console.log("Error loading block component");
@@ -52,8 +51,8 @@ function startNewGame()
 {
     deleteAllBlocks();
 
-    maxColumn = Math.floor(background.width / blockSize);
-    maxRow = Math.floor(background.height / blockSize);
+    maxColumn = Math.floor(gameCanvas.width / gameCanvas.blockSize);
+    maxRow = Math.floor(gameCanvas.height / gameCanvas.blockSize);
     maxIndex = maxRow * maxColumn;
 
     board = new Array(maxIndex);
@@ -62,5 +61,18 @@ function startNewGame()
             board[index(column, row)] = null;
             createBlock(column, row);
         }
+    }
+}
+
+
+function handleClick(xPos, yPos)
+{
+    var column = Math.floor(xPos / gameCanvas.blockSize);
+    var row = Math.floor(yPos / gameCanvas.blockSize);
+    if (column >= maxRow || column < 0 || row >= maxRow || row < 0) {
+        return;
+    }
+    if (board[index(column, row)] == null) {
+        return;
     }
 }

@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/hello/">
+    <file alias="qml/Main.qml">/Users/patrickseweryn/Developer/Projects/qtTest/qml/Main.qml</file>
+    <file alias="qml/Cell.qml">/Users/patrickseweryn/Developer/Projects/qtTest/qml/Cell.qml</file>
+  </qresource>
+</RCC>
+

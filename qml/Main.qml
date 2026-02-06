@@ -23,6 +23,18 @@ Rectangle {
             source: "pics/background.png"
             fillMode: Image.Stretch
         }
+        Item {
+            id: gameCanvas
+            property int score: 0
+            property int blockSize: 40
+            width: parent.width - (parent.width % blockSize)
+            height: parent.height - (parent.height % blockSize)
+            anchors.centerIn: parent
+            MouseArea {
+                anchors.fill: parent
+                onClicked: GameLogic.handleClick()
+            }
+        }
     }
 
     Rectangle {

@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/MyModule/">
-    <file alias="qml/pfy/qmldir">/Users/patrickseweryn/Developer/Projects/qtTest/build/MyModule/qml/pfy/qmldir</file>
-  </qresource>
-</RCC>
-

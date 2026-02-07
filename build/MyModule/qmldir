@@ -1,6 +1,0 @@
-module MyModule
-typeinfo QtTest.qmltypes
-prefer :/qt/qml/MyModule/
-Main 1.0 qml/pfy/Main.qml
-depends QtQuick
-

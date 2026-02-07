@@ -3,7 +3,6 @@ import QtQuick
 
 MouseArea {
     id: resizeHandle
-    cursorShape: Qt.OpenHandCursor
     width: parent.width
     height: parent.height
 
@@ -19,14 +18,9 @@ MouseArea {
     property point __targetRectSizeUponPress: Qt.point(null, null)
 
     onPressed: {
-        cursorShape = Qt.ClosedHandCursor
         __resizeDirection = 2 * -resizeDirectionInverted + 1
         __mousePositionUponPress = mapToItem(screen, mouseX, mouseY)
         __targetRectSizeUponPress = Qt.point(target.width, target.height)
-    }
-
-    onReleased: {
-        cursorShape = Qt.OpenHandCursor
     }
 
     onPositionChanged: {

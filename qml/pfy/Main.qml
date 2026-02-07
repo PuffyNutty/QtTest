@@ -12,6 +12,7 @@ Window {
 
     SystemPalette {
         id: systemPalette
+        colorGroup: SystemPalette.Active
     }
 
     Rectangle {
@@ -40,6 +41,7 @@ Window {
                 anchors.verticalCenter: parent.verticalCenter
                 anchors.horizontalCenter: parent.right
                 ResizeHandle {
+                    cursorShape: Qt.SplitHCursor
                     target: parent.parent
                     allowHorizontalResize: true
                     minSize: 50
@@ -64,85 +66,69 @@ Window {
                 columnSpacing: 0
                 rowSpacing: 0
 
-                Rectangle {
+                MosaicTile {
                     color: systemPalette.accent
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                    tileText: "Accent"
                 }
-                Rectangle {
+                MosaicTile {
                     color: systemPalette.alternateBase
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                    tileText: "Alternate Base"
                 }
-                Rectangle {
+                MosaicTile {
                     color: systemPalette.base
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                    tileText: "Base"
                 }
-                Rectangle {
+                MosaicTile {
                     color: systemPalette.button
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                    tileText: "Button"
                 }
-                Rectangle {
+                MosaicTile {
                     color: systemPalette.buttonText
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                    tileText: "Button Text"
                 }
-                Rectangle {
+                MosaicTile {
                     color: systemPalette.dark
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                    tileText: "Dark"
                 }
-                Rectangle {
+                MosaicTile {
                     color: systemPalette.highlight
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                    tileText: "Highlight"
                 }
-                Rectangle {
+                MosaicTile {
                     color: systemPalette.highlightedText
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                    tileText: "Highlighted Text"
                 }
-                Rectangle {
+                MosaicTile {
                     color: systemPalette.light
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                    tileText: "Light"
                 }
-                Rectangle {
+                MosaicTile {
                     color: systemPalette.mid
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                    tileText: "Mid"
                 }
-                Rectangle {
+                MosaicTile {
                     color: systemPalette.midlight
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                    tileText: "Mid Light"
                 }
-                Rectangle {
+                MosaicTile {
                     color: systemPalette.placeholderText
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                    tileText: "Placeholder Text"
                 }
-                Rectangle {
+                MosaicTile {
                     color: systemPalette.shadow
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                    tileText: "Shadow"
                 }
-                Rectangle {
+                MosaicTile {
                     color: systemPalette.text
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                    tileText: "Text"
                 }
-                Rectangle {
+                MosaicTile {
                     color: systemPalette.window
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                    tileText: "Window"
                 }
-                Rectangle {
+                MosaicTile {
                     color: systemPalette.windowText
-                    Layout.fillWidth: true
-                    Layout.fillHeight: true
+                    tileText: "Window Text"
                 }
             }
         }

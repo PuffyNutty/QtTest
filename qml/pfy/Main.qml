@@ -11,7 +11,7 @@ Window {
     title: "Resizable Rectangle"
 
     SystemPalette {
-        id: systemPalette
+        id: activePalette
         colorGroup: SystemPalette.Active
     }
 
@@ -19,7 +19,7 @@ Window {
         id: screen
         width: window.width
         height: window.height
-        color: systemPalette.window
+        color: activePalette.window
 
         Rectangle {
             id: sideBar
@@ -30,7 +30,7 @@ Window {
             Text {
                 width: parent.width
                 text: "There are a variety of reasons to indulge in such astronomically aimless annoyances"
-                color: systemPalette.text
+                color: activePalette.text
                 clip: true
             }
 
@@ -67,67 +67,67 @@ Window {
                 rowSpacing: 0
 
                 MosaicTile {
-                    color: systemPalette.accent
+                    color: activePalette.accent
                     tileText: "Accent"
                 }
                 MosaicTile {
-                    color: systemPalette.alternateBase
-                    tileText: "Alternate Base"
-                }
-                MosaicTile {
-                    color: systemPalette.base
-                    tileText: "Base"
-                }
-                MosaicTile {
-                    color: systemPalette.button
-                    tileText: "Button"
-                }
-                MosaicTile {
-                    color: systemPalette.buttonText
-                    tileText: "Button Text"
-                }
-                MosaicTile {
-                    color: systemPalette.dark
-                    tileText: "Dark"
-                }
-                MosaicTile {
-                    color: systemPalette.highlight
-                    tileText: "Highlight"
-                }
-                MosaicTile {
-                    color: systemPalette.highlightedText
-                    tileText: "Highlighted Text"
-                }
-                MosaicTile {
-                    color: systemPalette.light
-                    tileText: "Light"
-                }
-                MosaicTile {
-                    color: systemPalette.mid
+                    color: activePalette.mid
                     tileText: "Mid"
                 }
                 MosaicTile {
-                    color: systemPalette.midlight
+                    color: activePalette.base
+                    tileText: "Base"
+                }
+                MosaicTile {
+                    color: activePalette.button
+                    tileText: "Button"
+                }
+                MosaicTile {
+                    color: activePalette.buttonText
+                    tileText: "Button Text"
+                }
+                MosaicTile {
+                    color: activePalette.dark
+                    tileText: "Dark"
+                }
+                MosaicTile {
+                    color: activePalette.highlight
+                    tileText: "Highlight"
+                }
+                MosaicTile {
+                    color: activePalette.highlightedText
+                    tileText: "Highlighted Text"
+                }
+                MosaicTile {
+                    color: activePalette.light
+                    tileText: "Light"
+                }
+                MosaicTile {
+                    color: activePalette.mid
+                    tileText: "Mid"
+                }
+                MosaicTile {
+                    color: activePalette.midlight
                     tileText: "Mid Light"
                 }
                 MosaicTile {
-                    color: systemPalette.placeholderText
+                    color: activePalette.placeholderText
                     tileText: "Placeholder Text"
                 }
                 MosaicTile {
-                    color: systemPalette.shadow
+                    color: activePalette.shadow
                     tileText: "Shadow"
                 }
                 MosaicTile {
-                    color: systemPalette.text
+                    color: activePalette.text
                     tileText: "Text"
                 }
                 MosaicTile {
-                    color: systemPalette.window
+                    color: activePalette.window
                     tileText: "Window"
                 }
                 MosaicTile {
-                    color: systemPalette.windowText
+                    color: activePalette.windowText
                     tileText: "Window Text"
                 }
             }

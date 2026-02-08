@@ -7,8 +7,11 @@ Rectangle {
     Layout.fillHeight: true
     property string tileText: "Text"
     Text {
-        anchors.centerIn: parent
+        anchors.fill: parent
         text: tileText
         color: "blue"
+        horizontalAlignment: Text.AlignHCenter
+        verticalAlignment: Text.AlignVCenter
+        clip: true
     }
 }
